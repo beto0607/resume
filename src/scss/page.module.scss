@@ -1,0 +1,17 @@
+@import 'reset';
+.container{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background-color: purple;
+	vertical-align: middle;
+	&.info{
+		background-color: lightcoral;
+	}
+	&.knowledge{
+			background-color: lightseagreen;
+	}
+	&.education{
+			background-color: limegreen;
+	}
+}

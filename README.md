@@ -1,7 +1,7 @@
-## RESUME ##
+#RESUME#
 
 My own resume.
 
-# MADE #
+##MADE##
 
 * [Gatsby](https://www.gatsbyjs.org/)
