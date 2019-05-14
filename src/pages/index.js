@@ -1,19 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import PageContainer from "../components/page"
+import SectionContainer from "../components/section"
 
 const IndexPage = () => (
 <div>
-	<PageContainer contains="info">
+	<SectionContainer>
   		<h1>Test1</h1>
-  	</PageContainer>
-  	<PageContainer contains="knowledge">
-  		<h1>Test2222222222222222222222222222222222222222222222222222222222222222222</h1>
-  	</PageContainer>
-	<PageContainer contains="education">
+  	</SectionContainer>
+  	<SectionContainer>
+  		<h1>Test2</h1>
+  	</SectionContainer>
+	<SectionContainer>
   		<h1>Test3</h1>
-  	</PageContainer>
+  	</SectionContainer>
 </div>
 )
 
