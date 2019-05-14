@@ -1,7 +1,13 @@
 import React from "react"
 
 import SectionContainer from "../components/section"
-
+//FIRST SECTION
+import InfoContainer from "../components/info_container"
+import ProfilesContainer from "../components/profiles_container"
+//SECOND SECTION
+import KnowledgeContainer from "../components/knowledge_container"
+//THIRD SECTION
+import TextListContainer from "../components/textlist_container"
 const IndexPage = () => (
 <div>
 	<SectionContainer>
