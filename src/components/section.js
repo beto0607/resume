@@ -3,9 +3,9 @@ import sectionStyles from "../scss/section.module.scss"
 
 const SectionContainer = (props) =>{
 	return (
-		<div className={sectionStyles.container}>
+		<section className={sectionStyles.container}>
 			{props.children}
-		</div>
+		</section>
 	)
 }
 

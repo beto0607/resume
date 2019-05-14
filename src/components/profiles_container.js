@@ -1,10 +1,21 @@
 import React from "react"
-//import sectionStyles from "../scss/section.module.scss"
+import personalSectionStyles from "../scss/personal_section.module.scss"
+
+const ProfilesItem = (props)=>{
+	return (
+		<li className={personalSectionStyles.list}>
+		</li>
+	)
+}
+
 
 const ProfilesContainer = (props) =>{
 	return (
-		<div>
-			{props.children}
+		<div className={personalSectionStyles.bottom}>
+			<h2>Profiles</h2>
+			<ul>
+
+			</ul>
 		</div>
 	)
 }

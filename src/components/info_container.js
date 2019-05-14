@@ -1,10 +1,11 @@
 import React from "react"
-//import sectionStyles from "../scss/section.module.scss"
+import personalSectionStyles from "../scss/personal_section.module.scss"
 
 const InfoContainer = (props) =>{
 	return (
-		<div>
-			{props.children}
+		<div className={personalSectionStyles.middle}>
+			<h2>Roberto Javier Albanesi</h2>	
+			<a href="mailto:albanesi.roberto.javier@gmail.com">albanesi.roberto.javier@gmail.com</a>
 		</div>
 	)
 }

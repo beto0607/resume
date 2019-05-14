@@ -1,0 +1,32 @@
+.wrapper{
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+        'top top top'
+        'midleft middle miright'
+        'bottom bottom bottom';
+    /*grid-template-columns: auto 400px auto;
+    grid-template-rows: auto 60% auto;*/
+    .middle{
+        grid-column: 2;
+        grid-row: 2;
+        vertical-align: middle;
+        margin: auto;
+        grid-area: middle;
+    }
+    h2{
+        color: rebeccapurple;
+    }
+    .bottom{
+        grid-column: 2;
+        grid-row: 3;
+        grid-area: bottom;
+
+        h2{
+            color: rgb(46, 82, 0);
+            text-decoration: underline;
+        }
+    }
+}
