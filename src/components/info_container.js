@@ -21,7 +21,7 @@ const InfoContainer = () =>{
 	return (
 		<div className={personalSectionStyles.middle}>
 			<h2>{data.dataJson.information.name}, <span>{data.dataJson.information.age} years old</span></h2>	
-			<a href="mailto:albanesi.roberto.javier@gmail.com">albanesi.roberto.javier@gmail.com</a>
+			<a href={`mailto:${data.dataJson.information.email}`}>{data.dataJson.information.email}</a>
 		</div>
 	)
 }
