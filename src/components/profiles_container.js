@@ -14,7 +14,7 @@ const ProfilesContainer = (props) =>{
 		<div className={personalSectionStyles.bottom}>
 			<h2>Profiles</h2>
 			<ul>
-
+			<ProfilesItem/>
 			</ul>
 		</div>
 	)

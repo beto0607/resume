@@ -18,6 +18,10 @@
     }
     h2{
         color: rebeccapurple;
+        span{
+            font-size: 0.6em;
+            color: darkslategrey;
+        }
     }
     .bottom{
         grid-column: 2;
