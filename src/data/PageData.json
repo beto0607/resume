@@ -1,0 +1,33 @@
+{
+    "information":{
+        "name": "Roberto Javier Albanesi",
+        "age": 28,
+        "nacionality": "Argentina",
+        "email":"albanesi.roberto.javier@gmail.com"
+    },
+    "profiles":[
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/albanesirobertojavier/",
+            "icon": "images/LinkedIn/In-Blue-128@2x.png"
+        },
+        {
+            "name": "Github",
+            "link": "https://github.com/beto0607",
+            "icon": "images/Github/GitHub-Mark-120px-plus.png"
+        },
+        {
+            "name": "CODERSRANK",
+            "link": "https://profile.codersrank.io/user/beto0607",
+            "icon": "images/CODERSRANK/icon.jpg"
+        },
+        {
+            "name": "HackerRank",
+            "link": "https://www.hackerrank.com/beto0607",
+            "icon": "https://hrcdn.net/fcore/assets/brand/h_mark_sm-966d2b45e3.svg"
+        }
+    ],
+    "knowledge":[],
+    "education":[],
+    "work":[]
+}
