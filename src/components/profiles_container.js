@@ -1,20 +1,32 @@
 import React from "react"
-import personalSectionStyles from "../scss/personal_section.module.scss"
+import ProfilesItem from "../components/profiles_item"
+import { useStaticQuery, graphql } from "gatsby"
 
-const ProfilesItem = (props)=>{
-	return (
-		<li className={personalSectionStyles.list}>
-		</li>
-	)
-}
+import personalSectionStyles from "../scss/personal_section.module.scss"
 
 
 const ProfilesContainer = (props) =>{
+	const data = useStaticQuery(graphql`
+			query{
+				dataJson {
+					profiles {
+					  name
+					  link
+					  icon
+					}
+				}  
+			}
+		`
+	)
 	return (
 		<div className={personalSectionStyles.bottom}>
 			<h2>Profiles</h2>
 			<ul>
-			<ProfilesItem/>
+				{
+					(data.dataJson.profiles || []).map(element => (
+						<ProfilesItem key={element.name} item={element}/>
+					))
+				}
 			</ul>
 		</div>
 	)

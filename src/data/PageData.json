@@ -9,22 +9,22 @@
         {
             "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/albanesirobertojavier/",
-            "icon": "images/LinkedIn/In-Blue-128@2x.png"
+            "icon": "In-Blue-128@2x"
         },
         {
             "name": "Github",
             "link": "https://github.com/beto0607",
-            "icon": "images/Github/GitHub-Mark-120px-plus.png"
+            "icon": "GitHub-Mark-120px-plus"
         },
         {
             "name": "CODERSRANK",
             "link": "https://profile.codersrank.io/user/beto0607",
-            "icon": "images/CODERSRANK/icon.jpg"
+            "icon": "icon"
         },
         {
             "name": "HackerRank",
             "link": "https://www.hackerrank.com/beto0607",
-            "icon": "https://hrcdn.net/fcore/assets/brand/h_mark_sm-966d2b45e3.svg"
+            "icon": "h_mark_sm-966d2b45e3"
         }
     ],
     "cover_letter":{
