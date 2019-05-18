@@ -32,5 +32,35 @@
             color: rgb(46, 82, 0);
             text-decoration: underline;
         }
+        ul{
+            list-style: none;
+            display: inline-block;
+            li{
+                display: inline-block;
+                max-width: 8rem;
+                margin: 1.5rem 1rem;
+                text-align: center; 
+                background-color: rgb(101, 40, 170);
+                border: 3px solid rgb(107, 58, 163);
+                border-radius: 10px;
+                box-shadow: 0px 0px 3px 3px rgb(107, 58, 163);
+                transition: 0.4s;
+                a{
+                    padding: 0.25rem;
+                    max-width: 8rem;
+                    display: block;
+                    img{
+                        display: block;
+                        margin: auto;
+                        width: 2.5rem;
+                        height: 2.5rem;
+                    }
+                }
+                &:hover{
+                    transform: translateY(-.75rem) scale(1.1);
+                    box-shadow: 0px 0px 1px 1px rgb(107, 58, 163);
+                }
+            }
+        }
     }
 }

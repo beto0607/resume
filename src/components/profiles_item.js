@@ -20,7 +20,6 @@ const ProfilesItem = (props)=> {
 	return (
 	<li className={personalSectionStyles.list}>
 		<a href={props.item.link} target="_blank" rel="noopener noreferrer">
-			<h2>{props.item.name}</h2>
 			<img src={icon.node.publicURL} alt={props.item.name + " icon"}/>
 		</a>
 	</li>
