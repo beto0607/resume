@@ -5,7 +5,8 @@ module.exports = {
     author: `@beto0607`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
+   	`gatsby-plugin-typography`,
+  	`gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
