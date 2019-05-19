@@ -7,6 +7,7 @@
 	vertical-align: middle;
 	//line-height: 100vh;
 	&:nth-child(1){
+		background-image: url('https://source.unsplash.com/collection/590961/1600x900');
 		background-color: $infoSectionBackground;
 	}
 	&:nth-child(2){
