@@ -1,3 +1,8 @@
+$backgrondImageWidth: 1600;
+$backgrondImageHeight: 900;
+
+$backgroundUrl: 'https://source.unsplash.com/collection/590961/'+$backgrondImageWidth+'x'+$backgrondImageHeight;
+
 $primaryColor: rgba(123,123,13,1);
 
 
@@ -6,3 +11,9 @@ $infoSectionText: #dddddd;
 $infoSectionAHover: #eeeeee;
 $profilesBackground: #e0e0e0;
 $profilesBorders: #dddddd;
+
+
+$scrollContainerBorder: rgb(95, 12, 12);
+$scrollContainerBackground: rgb(95, 12, 12);
+$scrollContainerColor: rgb(148, 128, 128);
+

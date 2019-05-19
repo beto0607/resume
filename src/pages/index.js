@@ -10,9 +10,7 @@ import KnowledgeSection from "../components/knowledge_section"
 import EducationSection from "../components/education_section"
 const IndexPage = () => (
     <React.Fragment>
-		<PersonalSection>
-			
-		</PersonalSection>
+		<PersonalSection to="Cover letter" next="cover_letter"/>
 		<CoverLetterSection>
 			
 		</CoverLetterSection>
