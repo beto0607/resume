@@ -1,5 +1,6 @@
 import React from "react"
 
+
 import personalSectionStyles from "../scss/personal_section.module.scss"
 import { useStaticQuery, graphql } from "gatsby";
 

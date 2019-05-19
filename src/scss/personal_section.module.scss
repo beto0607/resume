@@ -26,18 +26,19 @@
     }
     a{
         color: $infoSectionText;
+        font-weight: 600;
+        svg{
+            vertical-align: middle;
+            margin-right: 5px;
+        }
         &:hover{
-            transform: scaleY(1.1);
+            color: $infoSectionAHover;
         }
     }
     .bottom{
         grid-column: 2;
         grid-row: 3;
         grid-area: bottom;
-
-        h2{
-            text-decoration: underline;
-        }
         ul{
             list-style: none;
             display: inline-block;

@@ -20,7 +20,6 @@ const ProfilesContainer = (props) =>{
 	)
 	return (
 		<div className={personalSectionStyles.bottom}>
-			<h2>Profiles</h2>
 			<ul>
 				{
 					(data.dataJson.profiles || []).map(element => (

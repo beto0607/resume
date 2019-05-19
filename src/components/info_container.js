@@ -1,5 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { FaEnvelope } from 'react-icons/fa';
+import Moment from 'react-moment';
+
 
 import personalSectionStyles from "../scss/personal_section.module.scss"
 
@@ -10,7 +13,7 @@ const InfoContainer = () =>{
 				dataJson {
 					information {
 						name
-						age
+						DoB
 						nacionality
 						email
 					}
@@ -20,10 +23,18 @@ const InfoContainer = () =>{
 	)
 	return (
 		<div className={personalSectionStyles.middle}>
-			<h2>{data.dataJson.information.name}, <span>{data.dataJson.information.age} years old</span></h2>	
-			<a href={`mailto:${data.dataJson.information.email}`}>{data.dataJson.information.email}</a>
+			<h2>{data.dataJson.information.name},{' '}
+				<span>
+					<Moment diff={data.dataJson.information.DoB} unit="years">{Date.now()}</Moment>
+				</span>
+			</h2>	
+			<a href={`mailto:${data.dataJson.information.email}`}>
+				<FaEnvelope/>
+				{data.dataJson.information.email}
+			</a>
 		</div>
 	)
 }
+
 
 export default InfoContainer;
