@@ -4,7 +4,7 @@ import SectionContainer from "./section"
 
 const OthersSection = (props)=>{
     return (
-        <SectionContainer name="others_section"  id={props.id}>
+        <SectionContainer name="others_section"  id={props.id} {...props}>
             {props.children}
         </SectionContainer>
     )

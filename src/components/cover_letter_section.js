@@ -2,7 +2,6 @@ import React from "react"
 
 import { useStaticQuery, graphql } from "gatsby"
 import SectionContainer from "./section"
-import ScrollManager from "../components/scroll_manager"
 import coverSectionStyles from "../scss/cover_letter_section.module.scss"
 
 const _onMouseMove = (e)=>{
@@ -14,7 +13,7 @@ const _onMouseMove = (e)=>{
     let newbackground = getComputedStyle(sectionElement).backgroundImage.split("%");
     newbackground[1] = newbackground[1].slice(0,-2)+(xBreakPoint);
     newbackground = newbackground.join("%");
-    if(newbackground.match(/[\-0-9]+deg/)){
+    if(newbackground.match(/[-0-9]+deg/)){
         newbackground = newbackground.replace(/[-0-9]+deg/, m);
     }else{
         newbackground = newbackground.replace(/t\(/, "t("+m+",");
@@ -36,13 +35,12 @@ const CoverLetterSection = (props)=>{
 		`
 	)
     return (
-        <SectionContainer name="cover_letter"  id={props.id}>
+        <SectionContainer name="cover_letter"  id={props.id} {...props}>
             <div className={coverSectionStyles.wrapper} onMouseMove={_onMouseMove}>
                 <h1>{data.dataJson.cover_letter.title}</h1>
                 <p className={coverSectionStyles.header}>{data.dataJson.cover_letter.header}</p>
                 <p className={coverSectionStyles.content}>{data.dataJson.cover_letter.content}</p>
             </div>
-            <ScrollManager title={props.to} next={props.next} down={true}/>
         </SectionContainer>
     )
 }
