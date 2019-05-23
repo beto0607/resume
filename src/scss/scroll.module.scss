@@ -1,9 +1,10 @@
 @import 'variables';
 .scroll-buttons-container{
-    position: absolute;
+    /*position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -10%;
+    bottom: -10%;*/
+    transform: translateY(-100%);
     z-index: 9999;
     background-color: $scrollContainerBackground;
     text-align: center;

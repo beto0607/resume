@@ -24,13 +24,4 @@ class ScrollManager extends Component {
         )
     }
 }
-
-// const ScrollManager = (props) => {
-//     return (
-//         <div className={scrollStyles.scrollButtonsContainer}>
-//             <p>{props.title || "Scroll Down"}</p>
-//             <FaAngleDoubleDown className={scrollStyles.scrollDownIcon}/>
-//         </div>
-//     )
-// }
 export default ScrollManager;

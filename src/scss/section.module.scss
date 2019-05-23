@@ -13,10 +13,18 @@
 		background-color: $infoSectionBackground;
 	}
 	&:nth-child(2){
-		background-color: lightseagreen;
+		background-color: $coverLetterBackgroundColor;
+		background: $coverLetterBackground;
+		transition: background 200ms;
 	}
 	&:nth-child(3){
 		background-color: limegreen;
+	}
+	&:nth-child(4){
+		background-color: green;
+	}
+	&:nth-child(5){
+		background-color: yellow;
 	}
 	@media (min-height: $backgrondImageHeight+'px') {
 		background-size: auto 100%;
