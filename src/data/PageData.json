@@ -29,8 +29,8 @@
     ],
     "cover_letter":{
         "title": "Cover letter",
-        "epigraph":"",
-        "content":""
+        "header": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id        ",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique urna sed sem dignissim faucibus. Ut sed sem in risus molestie imperdiet. Maecenas nec tristique turpis, consectetur facilisis quam. Curabitur quam massa, semper vel malesuada quis, rutrum sed enim. Nullam elit felis, pharetra eu sagittis vulputate, egestas vel tellus. Quisque augue leo, bibendum eu nulla eu, congue vestibulum ex. Integer enim magna, tincidunt at euismod sed, mollis nec quam. Proin ac velit iaculis, tempor libero nec, finibus turpis. Proin efficitur mi vitae tortor suscipit hendrerit at vel felis.\nNunc imperdiet dui in nibh facilisis, vitae porttitor massa ultricies. Fusce congue vulputate eleifend. Maecenas posuere ligula sed neque ultrices dapibus. Suspendisse eu elit hendrerit, convallis felis id, elementum ex. Mauris ante dui, lacinia sed varius et, iaculis ut ante. In hac habitasse platea dictumst. Sed sodales, dui ac feugiat laoreet, lectus purus luctus sem, id interdum ligula ipsum ac lorem. Curabitur varius mauris ac volutpat dapibus. Vivamus sit amet nisi fringilla, ultricies ante vel, cursus mi. Phasellus convallis vel nibh eu porttitor."
     },
     "knowledge":[],
     "education":[],
