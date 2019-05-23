@@ -1,13 +1,13 @@
 import React from "react"
 
 import SectionContainer from "./section"
-//import InfoContainer from "../components/info_container"
-//import ProfilesContainer from "../components/profiles_container"
+import ScrollManager from "../components/scroll_manager"    
 
 const CoverLetterSection = (props)=>{
     return (
-        <SectionContainer name="cover_letter">
+        <SectionContainer name="cover_letter"  id={props.id}>
             {props.children}
+            <ScrollManager title={props.to} next={props.next} down={true}/>
         </SectionContainer>
     )
 }

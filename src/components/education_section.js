@@ -6,7 +6,7 @@ import SectionContainer from "./section"
 
 const EducationSection = (props)=>{
     return (
-        <SectionContainer name="education">
+        <SectionContainer name="education" id={props.id}>
             {props.children}
         </SectionContainer>
     )

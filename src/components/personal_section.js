@@ -9,12 +9,12 @@ import personalSectionStyles from "../scss/personal_section.module.scss"
 
 const PersonalSection = (props) => {
     return (
-        <SectionContainer name="personal_info">
+        <SectionContainer name="personal_info" id={props.id}>
             <div className={personalSectionStyles.wrapper}>
                 <InfoContainer />
                 <ProfilesContainer/>
             </div>
-            <ScrollManager title={props.to} next={props.nextObjectName} down={true}/>
+            <ScrollManager title={props.to} next={props.next} down={true}/>
         </SectionContainer>
     )
 }
