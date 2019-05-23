@@ -15,7 +15,7 @@ const _onMouseMove = (e)=>{
     newbackground[1] = newbackground[1].slice(0,-2)+(xBreakPoint);
     newbackground = newbackground.join("%");
     if(newbackground.match(/[\-0-9]+deg/)){
-        newbackground = newbackground.replace(/[\-0-9]+deg/, m);
+        newbackground = newbackground.replace(/[-0-9]+deg/, m);
     }else{
         newbackground = newbackground.replace(/t\(/, "t("+m+",");
     }

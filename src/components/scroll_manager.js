@@ -18,8 +18,10 @@ class ScrollManager extends Component {
     render() {
         return (
             <div className={scrollStyles.scrollButtonsContainer} onClick={this.handleClick}>
-                <p>{this.props.title || "Scroll Down"}</p>
-                <FaAngleDoubleDown className={scrollStyles.scrollDownIcon}/>
+                <div>
+                    <p>{this.props.title || "Scroll Down"}</p>
+                    <FaAngleDoubleDown className={scrollStyles.scrollDownIcon}/>
+                </div>
             </div>
         )
     }

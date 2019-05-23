@@ -1,34 +1,36 @@
 @import 'variables';
 .scroll-buttons-container{
-    /*position: absolute;
-    left: 50%;
     transform: translateX(-50%);
-    bottom: -10%;*/
     transform: translateY(-100%);
-    z-index: 9999;
-    background-color: $scrollContainerBackground;
     text-align: center;
-    padding: 0.25rem 0.5rem;
-    border: 1px solid $scrollContainerBorder;
-    border-radius: 10px;
+    
     color: $scrollContainerColor;
     opacity: 0;
-    transition-property: bottom, opacity;
-    transition-duration: 500ms;
+    transition-duration: 350ms;
+    height: 0;
     cursor: pointer;
     
     &:before{
         position: absolute;
-        width: 130vw;
-        height: 50vh;
+        width: 100vw;
+        height: 5em;
         content: " ";
-        bottom: -20vh;
-        left: -50vw;
-        transition-property: height;
+        bottom: 0;
+        left: 0vw;
+        transition-delay: 500ms;
         transition-duration: 500ms;
+        //background: red;
+    }
+    div{
+        background-color: $scrollContainerBackground;
+        padding: 0.5rem 0.75rem 1rem 0.75rem;
+        border: 1px solid $scrollContainerBorder;
+        border-radius: 10px;
+        margin: auto;
+        width: fit-content;
+        display: none;
     }
     p{
-        padding: 0;
         margin: auto;
         font-size: 1.1rem;
         text-transform: lowercase;
@@ -37,16 +39,19 @@
     .scrollDownIcon{
         transform: scale(2);
         display: block;
-        margin: 0.25rem auto 1rem auto;
-        
+        margin: 0.5rem auto auto auto;
     }
 
     &:hover{
+        height: 5em;
         opacity: 1;
-        bottom: 5%;
+        div{
+            display: block;
+        }
         &:before{
+            //height: 4em;
          //   bottom: -30vh;
-            height: 35vh;
+            //height: 35vh;
         }
     }
 }
