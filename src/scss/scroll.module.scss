@@ -7,7 +7,7 @@
     color: $scrollContainerColor;
     opacity: 0;
     transition-duration: 350ms;
-    height: 0;
+    height: 0em;
     cursor: pointer;
     
     &:before{
@@ -17,9 +17,6 @@
         content: " ";
         bottom: 0;
         left: 0vw;
-        transition-delay: 500ms;
-        transition-duration: 500ms;
-        //background: red;
     }
     div{
         background-color: $scrollContainerBackground;
@@ -28,7 +25,9 @@
         border-radius: 10px;
         margin: auto;
         width: fit-content;
-        display: none;
+        transition-duration: 350ms;
+        transition-property: all;
+        visibility: hidden;
     }
     p{
         margin: auto;
@@ -42,16 +41,11 @@
         margin: 0.5rem auto auto auto;
     }
 
-    &:hover{
+    &:hover, &.shown{
         height: 5em;
         opacity: 1;
         div{
-            display: block;
-        }
-        &:before{
-            //height: 4em;
-         //   bottom: -30vh;
-            //height: 35vh;
-        }
+            visibility: visible;
+        }        
     }
 }
