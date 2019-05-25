@@ -9,6 +9,7 @@ import OthersSection from "../components/others_section"
 const IndexPage = () => (
     <React.Fragment>
 			<PersonalSection 
+				previous={{title:"Others", id:"others_section"}}
 				next={{title:"Cover letter",id:"cover_letter_section"}} 
 				id="personal_section"/>
 			<CoverLetterSection 
