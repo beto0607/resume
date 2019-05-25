@@ -8,11 +8,25 @@ import OthersSection from "../components/others_section"
 
 const IndexPage = () => (
     <React.Fragment>
-			<PersonalSection to="Cover letter" next="cover_letter_section" id="personal_section"/>
-			<CoverLetterSection  to="Knowloedge" next="knowledge_section" id="cover_letter_section"/>
-			<KnowledgeSection to="Education" next="education_section" id="knowledge_section"/>
-			<EducationSection to="Others" next="others_section" id="education_section"/>
-			<OthersSection to="Personal" next="personal_section" id="others_section"/>
+			<PersonalSection 
+				next={{title:"Cover letter",id:"cover_letter_section"}} 
+				id="personal_section"/>
+			<CoverLetterSection 
+				previous={{title:"Personal", id:"personal_section"}}
+				next={{title:"Knowloedge", id:"knowledge_section"}}
+				id="cover_letter_section"/>
+			<KnowledgeSection 
+				previous={{title:"Cover letter", id:"education_section"}}
+				next={{title:"Education", id:"cover_letter_section"}}
+				id="knowledge_section"/>
+			<EducationSection
+				previous={{title:"Knowloedge", id:"knowledge_section"}}
+				next={{title:"Others", id:"others_section"}}
+				id="education_section"/>
+			<OthersSection 
+				previous={{title:"Education", id:"education_section"}}
+				next={{title:"Personal", id:"personal_section"}}
+				id="others_section"/>
     </React.Fragment>
 
 )

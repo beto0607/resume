@@ -8,7 +8,7 @@ const SectionContainer = (props) =>{
 	return (
 		<section className={sectionStyles.container} id={props.id}>
 			{props.children}
-			<ScrollManager parent={props.id} title={props.to} next={props.next} down={true}/>
+			<ScrollManager parent={props.id} next={props.next} previous={props.previous}/>
 		</section>
 	)
 }
