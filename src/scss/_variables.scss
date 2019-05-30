@@ -23,3 +23,24 @@ $coverLetterBackground: linear-gradient(10deg, rgba(52, 32, 59, 0.85) 0%, rgba(7
 $coverLetterTitleColor: rgba(207, 215, 222, 0.9);
 $coverLetterHeaderColor: white;
 $coverLetterContentColor: white;
+
+$knowledgeSectionBackground: linear-gradient(10deg, rgba(52, 32, 59, 0.705) 0%, rgba(75, 6, 87, 0.85) 50%, rgba(78, 20, 35, 0.85) 100%);
+$knowledgeSectionText: rgba(123,123,123,1);
+$knowledgeItemBackground: rgba(123,123,123,1);
+$knowledgeItemBorder: rgba(100,100,100,1);
+$knowledgeItemColor: rgb(46, 150, 219);
+$knowledgeItemInformationBeforeBackground: rgba(97, 44, 44, 0.5);
+$knowledgeItemInformationBackgroundColor: rgb(0, 0, 0);
+$knowledgeItemInformationBackground: linear-gradient(70deg, rgb(68, 10, 83) 0%, rgb(34, 117, 59) 180%);
+$knowledgeItemInformationBorder: rgba(69, 223, 107,0);
+$knowledgeItemInformationBoxShadow: 0rem 0 3rem 1rem rgba(29, 56, 116, 0.685);
+$knowledgeItemInformationImageBackground: rgb(185, 185,185);
+$knowledgeItemInformationImageBoxShadow: 0 0 10px 6px rgba(66, 126, 194, 0.664);
+$knowledgeItemInformationTitleColor: rgb(224, 224, 224);
+$knowledgeItemInformationDescriptionColor: rgb(224, 224, 224);
+$knowledgeItemInformationParagraphColor: rgb(185, 185, 185);
+$knowledgeProjectItemStatusTitleColor: rgb(224, 224, 224);
+$knowledgeProjectItemStatusColor: rgb(0, 155, 78);
+$knowledgeProjectItemLinkColor: rgb(55, 116, 63);
+$knowledgeProjectItemSvgColor: rgb(0, 156, 135);
+$knowledgeProjectItemBoxShadow: 0 0 10px 1px rgba(66, 126, 194, 0.664);

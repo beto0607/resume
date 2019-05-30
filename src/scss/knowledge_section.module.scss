@@ -1,0 +1,141 @@
+@import 'variables';
+.wrapper{
+    color: $knowledgeSectionText;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    background: $knowledgeSectionBackground;
+
+    ul{
+        list-style-type: none;
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: left;
+        .item{
+            margin: 2rem 5rem;
+            display: inline-block;
+            text-decoration: underline;
+            background: $knowledgeItemBackground;
+            border: 2px solid $knowledgeItemBorder;
+            border-radius: 10px;
+            color: $knowledgeItemColor;
+            padding: 1rem;
+            text-align: center;
+            .readMore{
+                display: block;
+                margin: auto;
+                margin-top: -5rem;
+                margin-right: 0;
+                margin-bottom: 4rem;
+                font-size: 20px;
+            }
+            .imageContainer{
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                img{
+                    margin: auto;
+                    vertical-align: middle;
+                }
+            }
+            .informationWrapper{
+                display: none;
+                z-index: 1;
+                border-radius: 10px;
+                border: solid 2px $knowledgeItemInformationBorder;
+                grid-template-columns: 7rem 2rem 3fr 2rem auto;
+                grid-template-rows: 2rem 2rem 2rem 2rem auto 1rem;
+                grid-row-gap: 1rem;
+                padding: 2rem;
+                box-shadow: $knowledgeItemInformationImageBoxShadow;
+                img{
+                    display: inline-block;
+                    background: $knowledgeItemInformationImageBackground;
+                    border-radius: 10px;
+                    padding: 0.75rem;
+                    grid-row-start:1;
+                    grid-row-end:3;
+                    grid-column:1;
+                    box-shadow: $knowledgeProjectItemBoxShadow;
+                }
+                .itemTitle{
+                    display: inline-block;
+                    margin: auto;
+                    vertical-align: top;
+                    font-size: 20px;
+                    color: $knowledgeItemInformationTitleColor;
+                    grid-column:1;
+                    grid-row:4;
+                }
+                h3{
+                    grid-column:3;
+                    grid-row:1;
+                    margin: auto;
+                    color: $knowledgeItemInformationDescriptionColor;
+                    text-transform: capitalize;
+                }
+                p{
+                    color: $knowledgeItemInformationParagraphColor;
+                    font-size: 18px;
+                    grid-column:3;
+                    grid-row-start: 3;
+                    grid-row-end: 5;
+                    width: 20rem;
+                    place-self: center;
+
+                }
+                ul{
+                    grid-column: 5;
+                    grid-row-start: 1;
+                    grid-row-end: 6;
+                    .projectItem{
+                        box-shadow: $knowledgeProjectItemBoxShadow;
+                        padding: 5px;
+                        h3{
+                            display:block;
+                            width: auto;
+                            margin: auto;
+                            white-space: nowrap;
+                            margin-bottom: .5rem;
+                        }
+                        a{
+                            margin-left: 0.5rem;
+                            color: $knowledgeProjectItemLinkColor;
+                            font-size: 18px;
+                            vertical-align: middle;
+                            svg{
+                                display: inline-block;
+                                font-size: 20px;
+                                color: $knowledgeProjectItemSvgColor;
+                            }
+                        }
+                        span{
+                            margin: .5rem auto;
+                            margin-left: 1rem;
+                            display:block;
+                            color: $knowledgeProjectItemStatusTitleColor;
+                            strong{
+                                color: $knowledgeProjectItemStatusColor;
+                            }
+                        }
+                        p{
+                            margin-top: 5px;
+                        }
+                        
+                    }
+                }
+            }
+            &.active .informationWrapper,&:hover .informationWrapper{
+                display: grid;
+                position: fixed;
+                background-color: $knowledgeItemInformationBackgroundColor;
+                background: $knowledgeItemInformationBackground;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    
+}
