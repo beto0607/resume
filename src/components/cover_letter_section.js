@@ -5,11 +5,12 @@ import SectionContainer from "./section"
 import coverSectionStyles from "../scss/cover_letter_section.module.scss"
 
 const _onMouseMove = (e)=>{
+    if(typeof window == "undefined"){return;}
     var m = Math.atan2(e.screenY - (window.innerHeight / 2), e.screenX - (window.innerWidth/2)) * 180 / Math.PI;
     m = (Math.trunc(m + 90)) + "deg";
     let xBreakPoint = Math.trunc(e.screenX/window.innerWidth * 100);
     xBreakPoint = Math.min(2, Math.max(xBreakPoint, 98));
-    let sectionElement = document.getElementById('cover_letter_section');
+    let sectionElement = window.document.getElementById('cover_letter_section');
     let newbackground = getComputedStyle(sectionElement).backgroundImage.split("%");
     newbackground[1] = newbackground[1].slice(0,-2)+(xBreakPoint);
     newbackground = newbackground.join("%");
@@ -33,7 +34,7 @@ const CoverLetterSection = (props)=>{
                 }
 			}
 		`
-	)
+    )
     return (
         <SectionContainer name="cover_letter"  id={props.id} {...props}>
             <div className={coverSectionStyles.wrapper} onMouseMove={_onMouseMove}>

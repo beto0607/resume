@@ -14,16 +14,16 @@ class ScrollManager extends Component {
     }
     _setPreviousElement(){
         this.previous = this.props.previous
-        if(this.previous){
-            this.previousDom = document.getElementById(this.previous.id);
+        if(this.previous && typeof window != "undefined"){
+            this.previousDom = window.document.getElementById(this.previous.id);
             this.handleClickUp = this.handleClickUp.bind(this);
         }
     }
     _setNextElement(){
         this.next = this.props.next
-        if(this.next){
+        if(this.next && typeof window != "undefined"){
             this.handleClickDown = this.handleClickDown.bind(this);
-            this.nextDom = document.getElementById(this.next.id);
+            this.nextDom = window.document.getElementById(this.next.id);
         }
     }
     _setConfigs(){
@@ -35,15 +35,15 @@ class ScrollManager extends Component {
         this.isShown = false
     }
     componentDidMount() {
-        this.parentDom = document.getElementById(this.parent);
+        this.parentDom = window.document.getElementById(this.parent);
         if(this.parentDom){
             this.parentDom.addEventListener("wheel", this.handleWheel);
-            if(this.previous){
-                this.previousDom = document.getElementById(this.previous.id);
+            if(this.previous && typeof window != "undefined"){
+                this.previousDom = window.document.getElementById(this.previous.id);
                 this.upDom = this.parentDom.querySelector("."+scrollStyles.scrollUpContainer)
             }
-            if(this.next){
-                this.nextDom = document.getElementById(this.next.id);
+            if(this.next && typeof window != "undefined"){
+                this.nextDom = window.document.getElementById(this.next.id);
                 this.downDom = this.parentDom.querySelector("."+scrollStyles.scrollDownContainer)
             }
         }
