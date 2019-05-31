@@ -1,11 +1,27 @@
 @import 'variables';
+
+.wrapperBackground{
+    :global{
+        @keyframes :global(backAnimation){
+            0% {
+                background-position-x: 0%;   
+            }
+            100% {
+                background-position-x: -200%;
+            }
+        }
+        animation: 20s  linear infinite backAnimation;
+    }
+}
+
 .wrapper{
     color: $knowledgeSectionText;
     text-align: center;
     vertical-align: middle;
     height: 100%;
     background: $knowledgeSectionBackground;
-
+    background-size: 200% ;
+    composes: wrapperBackground;
     ul{
         list-style-type: none;
         display: block;
@@ -40,7 +56,7 @@
                 }
             }
             .informationWrapper{
-                display: none;
+                display: grid;
                 z-index: 1;
                 border-radius: 10px;
                 border: solid 2px $knowledgeItemInformationBorder;
@@ -49,6 +65,10 @@
                 grid-row-gap: 1rem;
                 padding: 2rem;
                 box-shadow: $knowledgeItemInformationImageBoxShadow;
+                position: fixed;
+                left: -1000%;
+                top: 10%;
+                transition-duration: 500ms;
                 img{
                     display: inline-block;
                     background: $knowledgeItemInformationImageBackground;
@@ -134,8 +154,8 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+
             }
         }
-    }
-    
+    }   
 }
