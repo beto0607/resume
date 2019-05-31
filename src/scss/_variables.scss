@@ -26,12 +26,12 @@ $coverLetterContentColor: white;
 
 $knowledgeSectionBackground: linear-gradient(10deg, rgba(52, 32, 59, 0.705) 0%, rgba(75, 6, 87, 0.85) 50%, rgba(78, 20, 35, 0.85) 100%);
 $knowledgeSectionText: rgba(123,123,123,1);
-$knowledgeItemBackground: rgba(123,123,123,1);
-$knowledgeItemBorder: rgba(100,100,100,1);
+$knowledgeItemBackground: rgba(87, 87, 87, 0.1);
+$knowledgeItemBorder: rgba(87, 87, 87, 1);
 $knowledgeItemColor: rgb(46, 150, 219);
 $knowledgeItemInformationBeforeBackground: rgba(97, 44, 44, 0.5);
 $knowledgeItemInformationBackgroundColor: rgb(0, 0, 0);
-$knowledgeItemInformationBackground: linear-gradient(70deg, rgb(68, 10, 83) 0%, rgb(34, 117, 59) 180%);
+$knowledgeItemInformationBackground: black;//linear-gradient(70deg, rgb(68, 10, 83) 0%, rgb(34, 117, 59) 180%);
 $knowledgeItemInformationBorder: rgba(69, 223, 107,0);
 $knowledgeItemInformationBoxShadow: 0rem 0 3rem 1rem rgba(29, 56, 116, 0.685);
 $knowledgeItemInformationImageBackground: rgb(185, 185,185);
