@@ -1,8 +1,5 @@
 import React from "react"
 import sectionStyles from "../scss/section.module.scss"
-import ScrollManager from "../components/scroll_manager"
-
-
 
 const SectionContainer = (props) =>{
 	return (
@@ -10,7 +7,6 @@ const SectionContainer = (props) =>{
 			{props.children}
 		</section>
 	)
-	//<ScrollManager parent={props.id} next={props.next} previous={props.previous}/>
 }
 
 export default SectionContainer;

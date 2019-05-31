@@ -1,0 +1,29 @@
+@import 'variables';
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    background-color: $headerBackgroundColor;
+    text-align: justify;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    transition-duration: 500ms;
+    &:hover{
+        background-color: $headerHoverBackgroundColor;
+    }
+    a{
+        margin: .25rem .5rem;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+        color: $headerLinkColor;
+        transition-duration: 500ms;
+        &:hover{
+            color: $headerLinkHoverColor;
+            font-size: 1.5rem;
+        }
+    }
+}
