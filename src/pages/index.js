@@ -1,5 +1,6 @@
 import React from "react"
 
+import sectionStyles from "../scss/section.module.scss"
 import Header from "../components/header"
 import PersonalSection from "../components/personal_section"
 import CoverLetterSection from "../components/cover_letter_section"
@@ -7,37 +8,33 @@ import KnowledgeSection from "../components/knowledge_section"
 import EducationSection from "../components/education_section"
 import OthersSection from "../components/others_section"
 
-const IndexPage = () => (
+const IndexPage = () => {
+	const personal_id = sectionStyles['personal_section'];
+	const cover_letter_id = sectionStyles['cover_letter_section'];
+	const knowledge_id = sectionStyles['knowledge_section'];
+	const education_id = sectionStyles['education_section'];
+	const others_id = sectionStyles['others_section'];
+	console.log(others_id);
+	return (
   <React.Fragment>
 		<PersonalSection 
-			previous={{title:"Others", id:"others_section"}}
-			next={{title:"Cover letter",id:"cover_letter_section"}} 
-			id="personal_section"/>
+			id={personal_id}/>
 		<CoverLetterSection 
-			previous={{title:"Personal", id:"personal_section"}}
-			next={{title:"Knowloedge", id:"knowledge_section"}}
-			id="cover_letter_section"/>
+			id={cover_letter_id}/>
 		<KnowledgeSection 
-			previous={{title:"Cover letter", id:"education_section"}}
-			next={{title:"Education", id:"cover_letter_section"}}
-			id="knowledge_section"/>
+			id={knowledge_id}/>
 		<EducationSection
-			previous={{title:"Knowloedge", id:"knowledge_section"}}
-			next={{title:"Others", id:"others_section"}}
-			id="education_section"/>
+			id={education_id}/>
 		<OthersSection 
-			previous={{title:"Education", id:"education_section"}}
-			next={{title:"Personal", id:"personal_section"}}
-			id="others_section"/>
+			id={others_id}/>
 		<Header sections={[
-			{id: "personal_section", name:"Information"},
-			{id: "cover_letter_section", name:"Cover letter"},
-			{id: "knowledge_section", name:"Knoweldge"},
-			{id: "education_section", name:"Education"},
-			{id: "others_section", name:"More"}
+			{id: personal_id, name:"Information"},
+			{id: sectionStyles['cover_letter_section'], name:"Cover letter"},
+			{id: knowledge_id, name:"Knoweldge"},
+			{id: education_id, name:"Education"},
+			{id: others_id, name:"More"}
 		]}/>
-  </React.Fragment>
+  </React.Fragment>)
+}
 
-)
-
-export default IndexPage
+export default IndexPage;

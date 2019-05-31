@@ -150,6 +150,47 @@
             ]
         }
     ],
-    "education":[],
+    "education":{
+        "formal":[
+            {
+                "title": "Analista Programador Universitario",
+                "description": "",
+                "link": "https://www.info.unlp.edu.ar/carreras-gradoarticulo/2015linuevo/",
+                "year": "2019"
+            },
+            {
+                "title": "IT Technician",
+                "description": "",
+                "link": "",
+                "year": "2008"
+            }
+        ],
+        "courses": [
+            {
+                "title": "PC repair",
+                "description": "",
+                "link": "",
+                "year": "2010"
+            },
+            {
+                "title": "Food manipulation",
+                "description": "",
+                "link": "",
+                "year": "2016"
+            },
+            {
+                "title": "Find objects in video",
+                "description": "",
+                "link": "",
+                "year": "2018"
+            },
+            {
+                "title": "Android SDK",
+                "description": "",
+                "link": "",
+                "year": "2017"
+            }
+        ]
+    },
     "work":[]
 }

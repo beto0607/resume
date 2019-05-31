@@ -1,26 +1,14 @@
 @import 'variables';
 
-.wrapperBackground{
-    :global{
-        @keyframes :global(backAnimation){
-            0% {
-                background-position-x: 0%;   
-            }
-            100% {
-                background-position-x: -200%;
-            }
-        }
-        animation: 20s  linear infinite backAnimation;
-    }
-}
 
 .wrapper{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     color: $knowledgeSectionText;
-    height: 100%;
+    height: 100vh;
     background: $knowledgeSectionBackground;
-    background-size: 200% ;
+    background-size: 200%;
     display: flex;
-    composes: wrapperBackground;
     ul{
         list-style-type: none;
         display: block;
