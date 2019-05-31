@@ -16,18 +16,17 @@
 
 .wrapper{
     color: $knowledgeSectionText;
-    text-align: center;
-    vertical-align: middle;
     height: 100%;
     background: $knowledgeSectionBackground;
     background-size: 200% ;
+    display: flex;
     composes: wrapperBackground;
     ul{
         list-style-type: none;
         display: block;
         margin: auto;
         width: 100%;
-        text-align: center;
+        
         .item{
             margin: 2rem 5rem;
             display: inline-block;
@@ -58,17 +57,19 @@
             .informationWrapper{
                 display: grid;
                 z-index: 1;
-                border-radius: 10px;
-                border: solid 2px $knowledgeItemInformationBorder;
-                grid-template-columns: 7rem 2rem 3fr 2rem auto;
-                grid-template-rows: 2rem 2rem 2rem 2rem auto 1rem;
-                grid-row-gap: 1rem;
-                padding: 2rem;
-                box-shadow: $knowledgeItemInformationImageBoxShadow;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 position: fixed;
-                left: -1000%;
-                top: 10%;
-                transition-duration: 500ms;
+                height:  0px;
+                width: 0;
+                transition-timing-function: ease-out;
+                transition: all 500ms;
+                transition: opacity 200ms;
+                opacity: 0;
+                *{
+                    visibility: hidden;
+                }
                 img{
                     display: inline-block;
                     background: $knowledgeItemInformationImageBackground;
@@ -151,10 +152,20 @@
                 position: fixed;
                 background-color: $knowledgeItemInformationBackgroundColor;
                 background: $knowledgeItemInformationBackground;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-
+                border-radius: 10px;
+                border: solid 2px $knowledgeItemInformationBorder;
+                grid-template-columns: 7rem 2rem 3fr 2rem auto;
+                grid-template-rows: 2rem 2rem 2rem 2rem auto 1rem;
+                grid-row-gap: 1rem;
+                padding: 2rem;
+                box-shadow: $knowledgeItemInformationImageBoxShadow;
+                height: auto;
+                width: auto;
+                opacity: 1; 
+                *{
+                    //transition-delay: 150ms;
+                    visibility: visible;
+                }
             }
         }
     }   
