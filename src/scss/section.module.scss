@@ -1,17 +1,4 @@
 @import 'variables';
-// .wrapperBackground{
-//     :global{
-//         @keyframes :global(backAnimation){
-//             0% {
-//                 background-position-x: 0%;   
-//             }
-//             100% {
-//                 background-position-x: -200%;
-//             }
-//         }
-//         animation: 2s  linear infinite backAnimation;
-//     }
-// }
 .container{
 	width: 100%;
 	min-height: 100vh;
@@ -28,30 +15,39 @@
 	&#cover_letter_section{
 		background-color: $coverLetterBackgroundColor;
 		background: $coverLetterBackground;
-		transition: background 200ms;
+
 	}
-	//&:nth-child(3), &#cover_letter{
 	&#knowledge_section{
+		background-color: $knowledgeSectionBackgroundColor;
+		background: $knowledgeSectionBackground;
+		// background-size: 200%;
+		// :global{
+		// 	@keyframes :global(backAnimation){
+		// 		0% {
+		// 			background-position-x: 0%;   
+		// 		}
+		// 		100% {
+		// 			background-position-x: -200%;
+		// 		}
+		// 	}
+		// 	animation: 3s  linear infinite backAnimation;
+		// }
+	}
+	&#education_section{
 		background-color: $coverLetterBackgroundColor;
 		background: $knowledgeSectionBackground;
 		background-size: 200%;
 		:global{
-			@keyframes :global(backAnimation){
-				0% {
-					background-position-x: 0%;   
-				}
-				100% {
-					background-position-x: -200%;
-				}
-			}
-			animation: 2s  linear infinite backAnimation;
+			animation: 3s  linear infinite backAnimation alternate;
 		}
 	}
-	&#education_section{
-		background-color: green;
-	}
 	&#others_section{
-		background-color: yellow;
+		background-color: $coverLetterBackgroundColor;
+		background: $knowledgeSectionBackground;
+		background-size: 200%;
+		:global{
+			animation: 3s  linear infinite backAnimation;
+		}
 	}
 	@media (min-height: $backgrondImageHeight+'px') {
 		background-size: auto 100%;

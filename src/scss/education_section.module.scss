@@ -6,10 +6,12 @@
     grid-column-gap: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    height: 100vh;
     .container{
         display: inline-block;
         h1{
             letter-spacing: 2px;
+            color: rgb(209, 186, 143);
         }
         ul{
             list-style: none;

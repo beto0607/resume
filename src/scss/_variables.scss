@@ -24,12 +24,19 @@ $coverLetterTitleColor: rgba(207, 215, 222, 0.9);
 $coverLetterHeaderColor: white;
 $coverLetterContentColor: white;
 
-
-$knowledgeSectionBackground: linear-gradient(70deg, 
-    rgba(52, 32, 59,.85) 10%, 
-    rgba(75, 6, 87,.85) 50%, 
-    rgba(78, 20, 35,.85) 90%    
+$knowledgeSectionBackgroundColor: rgb(32,20,77);
+$knowledgeSectionBackground: linear-gradient(60deg, 
+    rgb(32, 20, 77) 0%, 
+    rgb(42, 111, 143) 40%,
+    rgb(32, 20, 77) 100%
 );
+// $knowledgeSectionBackground: linear-gradient(90deg, 
+//     rgba(52, 32, 59,.85) 0%, 
+//     rgba(75, 6, 87,.85) 20%, 
+//     rgba(78, 20, 35,.85) 50%,
+//     rgba(75, 6, 87,.85) 80%,
+//     rgba(52, 32, 59,.85) 100%, 
+// );
 $knowledgeSectionText: rgba(123,123,123,1);
 $knowledgeItemBackground: rgba(87, 87, 87, 0.1);
 $knowledgeItemBorder: rgba(87, 87, 87, 1);

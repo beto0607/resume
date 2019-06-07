@@ -19,18 +19,18 @@ const IndexPage = () => {
   <React.Fragment>
 		<PersonalSection 
 			id={personal_id}/>
-		<CoverLetterSection 
-			id={cover_letter_id}/>
 		<KnowledgeSection 
 			id={knowledge_id}/>
+		<CoverLetterSection 
+			id={cover_letter_id}/>
 		<EducationSection
 			id={education_id}/>
 		<OthersSection 
 			id={others_id}/>
 		<Header sections={[
 			{id: personal_id, name:"Information"},
-			{id: sectionStyles['cover_letter_section'], name:"Cover letter"},
 			{id: knowledge_id, name:"Knoweldge"},
+			{id: cover_letter_id, name:"Cover letter"},
 			{id: education_id, name:"Education"},
 			{id: others_id, name:"More"}
 		]}/>
