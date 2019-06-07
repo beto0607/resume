@@ -23,10 +23,8 @@ const InfoContainer = () =>{
 	)
 	return (
 		<div className={personalSectionStyles.middle}>
-			<h2>{data.dataJson.information.name},{' '}
-				<span>
-					<Moment diff={data.dataJson.information.DoB} unit="years">{Date.now()}</Moment>
-				</span>
+			<h2>
+				{data.dataJson.information.name}
 			</h2>	
 			<a href={`mailto:${data.dataJson.information.email}`}>
 				<FaEnvelope/>
