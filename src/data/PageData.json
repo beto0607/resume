@@ -1,11 +1,11 @@
 {
-    "information":{
+    "information": {
         "name": "Roberto Javier Albanesi",
         "DoB": "06/07/1990",
         "nacionality": "Argentina",
-        "email":"albanesi.roberto.javier@gmail.com"
+        "email": "albanesi.roberto.javier@gmail.com"
     },
-    "profiles":[
+    "profiles": [
         {
             "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/albanesirobertojavier/",
@@ -27,36 +27,76 @@
             "icon": "h_mark_sm-966d2b45e3"
         }
     ],
-    "cover_letter":{
+    "cover_letter": {
         "title": "Cover letter",
         "header": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id        ",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique urna sed sem dignissim faucibus. Ut sed sem in risus molestie imperdiet. Maecenas nec tristique turpis, consectetur facilisis quam. Curabitur quam massa, semper vel malesuada quis, rutrum sed enim. Nullam elit felis, pharetra eu sagittis vulputate, egestas vel tellus. Quisque augue leo, bibendum eu nulla eu, congue vestibulum ex. Integer enim magna, tincidunt at euismod sed, mollis nec quam. Proin ac velit iaculis, tempor libero nec, finibus turpis. Proin efficitur mi vitae tortor suscipit hendrerit at vel felis.\nNunc imperdiet dui in nibh facilisis, vitae porttitor massa ultricies. Fusce congue vulputate eleifend. Maecenas posuere ligula sed neque ultrices dapibus. Suspendisse eu elit hendrerit, convallis felis id, elementum ex. Mauris ante dui, lacinia sed varius et, iaculis ut ante. In hac habitasse platea dictumst. Sed sodales, dui ac feugiat laoreet, lectus purus luctus sem, id interdum ligula ipsum ac lorem. Curabitur varius mauris ac volutpat dapibus. Vivamus sit amet nisi fringilla, ultricies ante vel, cursus mi. Phasellus convallis vel nibh eu porttitor."
     },
-    "knowledge":[
+    "projects": [
         {
-            "title": "PHP",
-            "description":"PHP was my first backend language. I learned it because I had to fix several bugs in some projects at work. Later I had to use it in college.",
-            "icon":"https://www.php.net/images/logos/new-php-logo.svg",
-            "projects":[
+            "title": "Resume",
+            "links": [
+                "http://cloudy-memory.surge.sh/"
+            ],
+            "code": [
+                "https://github.com/beto0607/resume"
+            ],
+            "image": "",
+            "description": "",
+            "technologies": [
+                {
+                    "title": "Git",
+                    "icon": "git_icon",
+                    "description": "Used as storage and to make the project public"
+                }
             ]
         },
         {
+            "title": "",
+            "links": [
+                ""
+            ],
+            "code": [
+                ""
+            ],
+            "image": "",
+            "description": "",
+            "technologies": [
+                {
+                    "title": "",
+                    "icon": ""
+                }
+            ]
+        }
+    ],
+    "knowledge": [
+        {
+            "title": "PHP",
+            "description": "PHP was my first backend language. I learned it because I had to fix several bugs in some projects at work. Later I had to use it in college.",
+            "icon": "https://www.php.net/images/logos/new-php-logo.svg",
+            "projects": []
+        },
+        {
             "title": "Magento &#174;",
-            "description":"I learned how to use plugins, create themes, create block, controllers and observers, add attributes to products and classes. In both, 1.9 and 2.1 versions.",
-            "icon":"magento_logo",
-            "projects":[
+            "description": "I learned how to use plugins, create themes, create block, controllers and observers, add attributes to products and classes. In both, 1.9 and 2.1 versions.",
+            "icon": "magento_logo",
+            "projects": [
                 {
                     "title": "Eduntref",
                     "status": "Done",
                     "description": "Digital library for Eduntref.",
-                    "links":["http://eduntref.com.ar/magento/"],
+                    "links": [
+                        "http://eduntref.com.ar/magento/"
+                    ],
                     "code": ""
                 },
                 {
                     "title": "Eduntref",
                     "status": "Doing",
-                    "description":"Update from Magento 1 to Magento 2. Change in styling.",
-                    "links":["http://temp.eduntref.com.ar/"],
+                    "description": "Update from Magento 1 to Magento 2. Change in styling.",
+                    "links": [
+                        "http://temp.eduntref.com.ar/"
+                    ],
                     "code": ""
                 }
             ]
@@ -64,13 +104,13 @@
         {
             "title": "Javascript",
             "description": "I learned Javascript working in Phonegap and using it for web game dev. I used jQuery for almost everythin(animations, AJAX, insert items in DOM, etc). Now, I am moving to React.",
-            "icon":"javascript_icon",
-            "projects":[
+            "icon": "javascript_icon",
+            "projects": [
                 {
                     "title": "Tablero",
                     "status": "Done",
                     "description": "Board game for Fundación YPF. I have developed the board, trivias and the minigames(except the solar energy one), using jQuery. We were a team of 3. One artist, a producer and I.",
-                    "links":[
+                    "links": [
                         "https://fundacionypf.org/VosylaEnergia/juegos.html",
                         "http://www.boemiz.com/shared-folder/tablero/"
                     ],
@@ -80,7 +120,7 @@
                     "title": "Stopmotion",
                     "status": "Done",
                     "description": "Stopmotion experiencie for Fundación YPF. It is a tool for making GIFs in a stop-motion style. We were a team of 4. One artist, a producer and 2 programmers. My job was take the code in PHP from the other programmer and make it a single page application.",
-                    "links":[
+                    "links": [
                         "https://fundacionypf.org/VosylaEnergia/juegos.html",
                         "http://www.boemiz.com/shared-folder/stopmotionjs/"
                     ],
@@ -91,34 +131,35 @@
         {
             "title": "Ruby",
             "description": "I took classes of Ruby in college. We learned Ruby Vanilla, Rails and Sinatra.",
-            "icon":"Ruby_icon",
-            "projects":[
-
-            ]
+            "icon": "Ruby_icon",
+            "projects": []
         },
         {
             "title": "Gatsby",
             "description": "I want to learn React, and I found that Gatsby is based on it. I used Gatsby to this page.",
-            "icon":"rails_icon",
-            "projects":[
+            "icon": "rails_icon",
+            "projects": [
                 {
                     "title": "Resume",
                     "status": "Doing",
-                    "links":[""],
+                    "links": [
+                        ""
+                    ],
                     "code": "https://github.com/beto0607/resume"
                 }
-
             ]
         },
         {
             "title": "Git",
             "description": "I am experienced in git.",
-            "icon":"icons8-git",
-            "projects":[
+            "icon": "icons8-git",
+            "projects": [
                 {
                     "title": "Github profile",
                     "status": "Doing",
-                    "links":[""],
+                    "links": [
+                        ""
+                    ],
                     "code": "https://github.com/beto0607"
                 }
             ]
@@ -126,32 +167,36 @@
         {
             "title": "Unity 3D",
             "description": "I worked with C# and have experience with 3D gaming, networking, VR and AR(Vuforia)",
-            "icon":"unity-icon-png-3",
-            "projects":[
+            "icon": "unity-icon-png-3",
+            "projects": [
                 {
                     "title": "MDC.AR",
                     "status": "Done",
-                    "links":["https://play.google.com/store/apps/details?id=com.boemiz.mdcar"],
+                    "links": [
+                        "https://play.google.com/store/apps/details?id=com.boemiz.mdcar"
+                    ],
                     "code": ""
                 },
                 {
                     "title": "MDC.VR",
                     "status": "Done",
-                    "links":["https://play.google.com/store/apps/details?id=com.mdc.vr"],
+                    "links": [
+                        "https://play.google.com/store/apps/details?id=com.mdc.vr"
+                    ],
                     "code": ""
                 },
                 {
                     "title": "Museo Interactivo",
                     "status": "Doing",
-                    "description":"It is a game for an interactive classroom in Museo de Ciencias Naturales in La Plata. It has 3 modules, one for administration, one for a TV with multitouch input and one for 45 tablets. The game consists in 6 mini-games. And all is controlled from the admin module.",
-                    "links":[],
-                    "code":""
+                    "description": "It is a game for an interactive classroom in Museo de Ciencias Naturales in La Plata. It has 3 modules, one for administration, one for a TV with multitouch input and one for 45 tablets. The game consists in 6 mini-games. And all is controlled from the admin module.",
+                    "links": [],
+                    "code": ""
                 }
             ]
         }
     ],
-    "education":{
-        "formal":[
+    "education": {
+        "formal": [
             {
                 "title": "Analista Programador Universitario",
                 "description": "",
@@ -192,5 +237,5 @@
             }
         ]
     },
-    "work":[]
+    "work": []
 }
