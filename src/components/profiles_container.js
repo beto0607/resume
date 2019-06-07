@@ -23,7 +23,7 @@ const ProfilesContainer = (props) =>{
 			<ul>
 				{
 					(data.dataJson.profiles || []).map(element => (
-						<ProfilesItem key={element.name} item={element}/>
+						<ProfilesItem key={element.name} {...element}/>
 					))
 				}
 			</ul>

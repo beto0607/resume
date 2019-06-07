@@ -1,27 +1,12 @@
 import React from "react"
 
-
 import personalSectionStyles from "../scss/personal_section.module.scss"
-import { useStaticQuery, graphql } from "gatsby";
 
-const ProfilesItem = (props)=> {
-    const data = useStaticQuery(graphql`
-        query{
-            allFile{
-                edges {
-                    node {
-                        publicURL
-                        name
-                    }
-                }
-            }
-        }
-    `)
-    let icon = data.allFile.edges.find(element=>(element.node.name === props.item.icon))
+const ProfilesItem = ({link, icon, name})=> {
 	return (
 	<li className={personalSectionStyles.list}>
-		<a href={props.item.link} target="_blank" rel="noopener noreferrer">
-			<img src={icon.node.publicURL} alt={props.item.name + " icon"}/>
+		<a href={link} target="_blank" rel="noopener noreferrer">
+			<img src={icon} alt={name + " icon"}/>
 		</a>
 	</li>
 )}
