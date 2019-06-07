@@ -5,6 +5,7 @@ $backgroundUrl: 'https://source.unsplash.com/collection/590961/'+$backgrondImage
 
 $primaryColor: rgba(123,123,13,1);
 
+$bodyBackground: linear-gradient(60deg, rgb(36, 17, 105) 0%, rgba(42, 111, 134, 1) 40%, rgba(36, 17, 105, 1) 100%);
 
 $infoSectionBackground: rgb(3, 9, 92);
 $infoSectionText: #dddddd;
@@ -12,25 +13,10 @@ $infoSectionAHover: #eeeeee;
 $profilesBackground: #e0e0e0;
 $profilesBorders: #dddddd;
 
-
-$scrollContainerBorder: rgba(37, 37, 66, 0.45);
-$scrollContainerBackground: rgba(37, 20, 90, 0.45);
-$scrollContainerColor: rgb(104, 164, 182);
-
-$coverLetterBackgroundColor:rgb(70,30,84);
-// $coverLetterBackground: linear-gradient(10deg, rgba(52, 32, 59, 0.85) 0%, rgba(75, 6, 87, 0.85) 50%, rgba(78, 20, 35, 0.85) 100%);
-$coverLetterBackground: linear-gradient(60deg, rgba(32, 20, 77, 1) 0%, rgba(42, 111, 134, 1) 40%, rgba(32, 20, 77, 1) 100%);
-
 $coverLetterTitleColor: rgba(207, 215, 222, 0.9);
 $coverLetterHeaderColor: white;
 $coverLetterContentColor: white;
 
-$knowledgeSectionBackgroundColor: rgb(32,20,77);
-$knowledgeSectionBackground: linear-gradient(60deg, 
-    rgb(32, 20, 77) 0%, 
-    rgb(42, 111, 143) 40%,
-    rgb(32, 20, 77) 100%
-);
 $knowledgeSectionText: rgba(123,123,123,1);
 $knowledgeItemBackground: rgba(87, 87, 87, 0.1);
 $knowledgeItemBorder: rgba(87, 87, 87, 1);
@@ -56,7 +42,6 @@ $headerBackgroundColor: rgba(0, 0, 0, 0.3);
 $headerHoverBackgroundColor: rgba(0, 0, 0, 0.7);
 $headerLinkColor: #dddddd;
 $headerLinkHoverColor: rgb(255,255,255);
-
 
 
 $educationTitleColor: rgb(209, 186, 143);
