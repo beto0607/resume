@@ -1,8 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { FaEnvelope } from 'react-icons/fa';
-import Moment from 'react-moment';
-
 
 import personalSectionStyles from "../scss/personal_section.module.scss"
 
