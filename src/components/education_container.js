@@ -6,7 +6,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 const EducationContainer = ({title, data})=>{
     return (
         <div className={educationStyles.container}>
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             <ul>
                 {
                     data.map(({title, link, description, year}, index)=>{

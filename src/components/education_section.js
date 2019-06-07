@@ -27,6 +27,7 @@ const EducationSection = (props)=>{
     return (
         <SectionContainer name="education" id={props.id} {...props}>
             <div className={educationStyles.wrapper}>
+                <h1 className={educationStyles.title}>{props.title ||"Education"}</h1>
                 <EducationContainer title="Formal" data={data.dataJson.education.formal}/>
                 <EducationContainer title="Courses" data={data.dataJson.education.courses}/>
             </div>
