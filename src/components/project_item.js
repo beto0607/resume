@@ -1,9 +1,10 @@
 import React from "react"
 import projectsSectionStyles from "../scss/projects_section.module.scss"
+import { FaExternalLinkAlt, FaCode, FaChevronRight} from 'react-icons/fa';
 
 const ProjectItem = ({
     title,
-    image,
+    year,
     description,
     links,
     code,
@@ -11,35 +12,47 @@ const ProjectItem = ({
 }) => {
     return (
         <li>
-            <h3>{title}</h3>
-            <p>{description}</p>
+            <h3>{title}{year > 0 && (<span>, {year}</span>)}</h3>
             {
-                links.length ? 
+                description.length > 0 &&(
+                    <p>
+                        {description}
+                    </p>
+                )
+            }
+            {
+                links.length > 0 && (
                     <div className={projectsSectionStyles.linksContainer}>
-                        <strong>Links</strong>
+                        <strong><FaChevronRight/></strong>
                         {links.map((element,index)=>{
-                            return (<a href={element}>#{index+1}</a>)
+                            return (<a _target="blank"  href={element} key={"project_element_#"+index}>{'Link #'+(index+1)}<FaExternalLinkAlt/></a>)
                         })}
                     </div>
-                :null
+                )
             }
             {
-                code.length ? 
+                code.length > 0 && (
                     <div className={projectsSectionStyles.codeContainer}>
-                        <strong>Code</strong>
+                        <strong><FaChevronRight/></strong>
                         {code.map((element,index)=>{
-                            return (<a href={element}>#{index+1}</a>)
+                            return (<a _target="blank"  href={element} key={"project_element_#"+index}>{'Source code #'+(index+1)}<FaCode/></a>)
                         })}
-                    </div> : null
+                    </div>
+                )
             }
             {
-                technologies.length ? 
+                technologies.length > 0 && (
                     <div className={projectsSectionStyles.techonologiesContainer}>
-                        <strong>Techonolies</strong>
-                        {code.map((element,index)=>{
-                            return (<a href={element}>#{index+1}</a>)
-                        })}
-                    </div> : null
+                        <div className={projectsSectionStyles.technologiesListContainer}>
+                            {technologies.map((element,index)=>{
+                                return (<div key={"project_element_#"+index}>
+                                    <img src={element.icon} alt={element.title +" icon"}/>
+                                    <p>{element.description}</p>
+                                </div>)
+                            })}
+                        </div>
+                    </div>
+                )
             }
         </li>
     )
