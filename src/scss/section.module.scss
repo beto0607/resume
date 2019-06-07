@@ -1,53 +1,26 @@
 @import 'variables';
+body{
+	background-color: $knowledgeSectionBackgroundColor;
+	background: $knowledgeSectionBackground;
+	background-repeat: no-repeat;
+}
 .container{
 	width: 100%;
 	min-height: 100vh;
 	text-align: center;
-	background-color: purple;
 	vertical-align: middle;
-	background-position: 50%;
-	background-repeat: no-repeat;
+	
 	&#personal_section{
 		background-image: url($backgroundUrl);
-		background-color: $infoSectionBackground;
 		height: 100vh;
 	}
 	&#cover_letter_section{
-		background-color: $coverLetterBackgroundColor;
-		background: $coverLetterBackground;
-
 	}
 	&#knowledge_section{
-		background-color: $knowledgeSectionBackgroundColor;
-		background: $knowledgeSectionBackground;
-		// background-size: 200%;
-		// :global{
-		// 	@keyframes :global(backAnimation){
-		// 		0% {
-		// 			background-position-x: 0%;   
-		// 		}
-		// 		100% {
-		// 			background-position-x: -200%;
-		// 		}
-		// 	}
-		// 	animation: 3s  linear infinite backAnimation;
-		// }
 	}
 	&#education_section{
-		background-color: $coverLetterBackgroundColor;
-		background: $knowledgeSectionBackground;
-		background-size: 200%;
-		:global{
-			animation: 3s  linear infinite backAnimation alternate;
-		}
 	}
 	&#others_section{
-		background-color: $coverLetterBackgroundColor;
-		background: $knowledgeSectionBackground;
-		background-size: 200%;
-		:global{
-			animation: 3s  linear infinite backAnimation;
-		}
 	}
 	@media (min-height: $backgrondImageHeight+'px') {
 		background-size: auto 100%;
