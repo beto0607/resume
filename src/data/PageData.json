@@ -9,22 +9,22 @@
         {
             "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/albanesirobertojavier/",
-            "icon": "In-Blue-128@2x"
+            "icon": "linkedin.png"
         },
         {
             "name": "Github",
             "link": "https://github.com/beto0607",
-            "icon": "GitHub-Mark-120px-plus"
+            "icon": "github_dark.png"
         },
         {
             "name": "CodersRank",
             "link": "https://profile.codersrank.io/user/beto0607",
-            "icon": "icon"
+            "icon": "coderanker.jpg"
         },
         {
             "name": "HackerRank",
             "link": "https://www.hackerrank.com/beto0607",
-            "icon": "h_mark_sm-966d2b45e3"
+            "icon": "hackerrank.svg"
         }
     ],
     "cover_letter": {
@@ -46,7 +46,7 @@
             "technologies": [
                 {
                     "title": "Git",
-                    "icon": "git_icon",
+                    "icon": "git.svg",
                     "description": "Used as storage and to make the project public"
                 }
             ]
@@ -79,7 +79,7 @@
         {
             "title": "Magento &#174;",
             "description": "I learned how to use plugins, create themes, create block, controllers and observers, add attributes to products and classes. In both, 1.9 and 2.1 versions.",
-            "icon": "magento_logo",
+            "icon": "magento_logo.png",
             "projects": [
                 {
                     "title": "Eduntref",
@@ -104,7 +104,7 @@
         {
             "title": "Javascript",
             "description": "I learned Javascript working in Phonegap and using it for web game dev. I used jQuery for almost everythin(animations, AJAX, insert items in DOM, etc). Now, I am moving to React.",
-            "icon": "javascript_icon",
+            "icon": "javascript.png",
             "projects": [
                 {
                     "title": "Tablero",
@@ -131,13 +131,13 @@
         {
             "title": "Ruby",
             "description": "I took classes of Ruby in college. We learned Ruby Vanilla, Rails and Sinatra.",
-            "icon": "Ruby_icon",
+            "icon": "ruby.svg",
             "projects": []
         },
         {
             "title": "Gatsby",
-            "description": "I want to learn React, and I found that Gatsby is based on it. I used Gatsby to this page.",
-            "icon": "rails_icon",
+            "description": "I wanted to learn React, and I found that Gatsby is based on it. I used Gatsby for this page.",
+            "icon": "gatsby-icon.png",
             "projects": [
                 {
                     "title": "Resume",
@@ -152,7 +152,7 @@
         {
             "title": "Git",
             "description": "I am experienced in git.",
-            "icon": "icons8-git",
+            "icon": "git.svg",
             "projects": [
                 {
                     "title": "Github profile",
@@ -167,7 +167,7 @@
         {
             "title": "Unity 3D",
             "description": "I worked with C# and have experience with 3D gaming, networking, VR and AR(Vuforia)",
-            "icon": "unity-icon-png-3",
+            "icon": "unity.jpg",
             "projects": [
                 {
                     "title": "MDC.AR",
