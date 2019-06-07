@@ -28,7 +28,7 @@ const KnowledgeSection = (props)=>{
                 <ul>
                     {
                         (data.dataJson.knowledge || []).map(element => (
-                            <KnowledgeItem key={element.title} item={element}/>
+                            <KnowledgeItem key={element.title} {...element}/>
                         ))
                     }
                 </ul>

@@ -29,7 +29,7 @@ const ProjectSection = props => {
         <h1>Projects</h1>
         <ul>
           {data.dataJson.projects.map((element, index) => (
-            <ProjectItem key={"project_" + index} {...element} />
+            <ProjectItem {...element} />
           ))}
         </ul>
       </div>

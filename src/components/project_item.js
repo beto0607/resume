@@ -1,7 +1,5 @@
 import React from "react"
 import projectsSectionStyles from "../scss/projects_section.module.scss"
-import { useStaticQuery, graphql } from "gatsby"
-import defaultIcon from "../images/default_icon.png"
 
 const ProjectItem = ({
     title,
@@ -11,30 +9,13 @@ const ProjectItem = ({
     code,
     technologies,
 }) => {
-    /*if(!icon.match(/http/)){
-          const data = useStaticQuery(graphql`
-              query{
-                  allFile{
-                      edges {
-                          node {
-                              publicURL
-                              name
-                          }
-                      }
-                  }
-              }
-          `)
-          icon = data.allFile.edges.find(element=>(element.node.name === icon))
-          if(icon){icon = icon.node.publicURL;}
-          else{icon = defaultIcon}
-      }*/
     return (
-        <li key={key}>
+        <li>
             <h3>{title}</h3>
             <p>{description}</p>
             {
                 links.length ? 
-                    <div>
+                    <div className={projectsSectionStyles.linksContainer}>
                         <strong>Links</strong>
                         {links.map((element,index)=>{
                             return (<a href={element}>#{index+1}</a>)
@@ -44,8 +25,17 @@ const ProjectItem = ({
             }
             {
                 code.length ? 
-                    <div>
+                    <div className={projectsSectionStyles.codeContainer}>
                         <strong>Code</strong>
+                        {code.map((element,index)=>{
+                            return (<a href={element}>#{index+1}</a>)
+                        })}
+                    </div> : null
+            }
+            {
+                technologies.length ? 
+                    <div className={projectsSectionStyles.techonologiesContainer}>
+                        <strong>Techonolies</strong>
                         {code.map((element,index)=>{
                             return (<a href={element}>#{index+1}</a>)
                         })}
