@@ -7,8 +7,10 @@ import CoverLetterSection from "../components/cover_letter_section"
 import KnowledgeSection from "../components/knowledge_section"
 import EducationSection from "../components/education_section"
 import OthersSection from "../components/others_section"
+import typography from '../utils/typography'
 
 const IndexPage = () => {
+	typography.injectStyles()
 	const personal_id = sectionStyles['personal_section'];
 	const cover_letter_id = sectionStyles['cover_letter_section'];
 	const knowledge_id = sectionStyles['knowledge_section'];

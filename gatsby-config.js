@@ -5,8 +5,14 @@ module.exports = {
     author: `@beto0607`,
   },
   plugins: [
-   	`gatsby-plugin-typography`,
-  	`gatsby-plugin-sass`,
+    `gatsby-plugin-typography`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -32,10 +38,10 @@ module.exports = {
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
-      options:{
+      options: {
         name: `data`,
-        path:`${__dirname}/src/data`,
-      }
+        path: `${__dirname}/src/data`,
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
