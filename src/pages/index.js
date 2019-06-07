@@ -3,8 +3,9 @@ import React from "react"
 import sectionStyles from "../scss/section.module.scss"
 import Header from "../components/header"
 import PersonalSection from "../components/personal_section"
-import CoverLetterSection from "../components/cover_letter_section"
+import ProjectSection from "../components/project_section"
 import KnowledgeSection from "../components/knowledge_section"
+import CoverLetterSection from "../components/cover_letter_section"
 import EducationSection from "../components/education_section"
 import OthersSection from "../components/others_section"
 import typography from '../utils/typography'
@@ -12,6 +13,7 @@ import typography from '../utils/typography'
 const IndexPage = () => {
 	typography.injectStyles()
 	const personal_id = sectionStyles['personal_section'];
+	const projects_id = sectionStyles['projects_section'];
 	const cover_letter_id = sectionStyles['cover_letter_section'];
 	const knowledge_id = sectionStyles['knowledge_section'];
 	const education_id = sectionStyles['education_section'];
@@ -21,6 +23,8 @@ const IndexPage = () => {
   <React.Fragment>
 		<PersonalSection 
 			id={personal_id}/>
+		<ProjectSection 
+			id={projects_id}/>
 		<KnowledgeSection 
 			id={knowledge_id}/>
 		<CoverLetterSection 
@@ -31,6 +35,7 @@ const IndexPage = () => {
 			id={others_id}/>
 		<Header sections={[
 			{id: personal_id, name:"Information"},
+			{id: projects_id, name:"Projects"},
 			{id: knowledge_id, name:"Knoweldge"},
 			{id: cover_letter_id, name:"Cover letter"},
 			{id: education_id, name:"Education"},
