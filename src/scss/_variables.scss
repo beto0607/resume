@@ -3,8 +3,6 @@ $backgrondImageHeight: 900;
 
 $backgroundUrl: 'https://source.unsplash.com/collection/590961/'+$backgrondImageWidth+'x'+$backgrondImageHeight;
 
-$primaryColor: rgba(123,123,13,1);
-
 $bodyBackground: linear-gradient(60deg, rgb(36, 17, 105) 0%, rgba(42, 111, 134, 1) 40%, rgba(36, 17, 105, 1) 100%);
 
 $infoSectionBackground: rgb(3, 9, 92);
@@ -45,3 +43,9 @@ $headerLinkHoverColor: rgb(255,255,255);
 
 
 $educationTitleColor: rgb(209, 186, 143);
+
+
+$projectsSectionTitle: #dddddd;
+$projectsSectionStrong: #cdcdcd;
+$projectsSectionDescriptions: #cdcdcd;
+$projectsSectionLinks: #00e1ff;

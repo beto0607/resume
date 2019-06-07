@@ -1,14 +1,84 @@
 @import 'variables';
 
 .wrapper{
-    h1.title{
-        color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid red;
+    h1{
+        color: $infoSectionText;
     }
     ul{
         li{
+            display: block;
+            margin: 1rem auto;
+            padding: 1rem 1.5rem;
+            max-width: 90%;
+            min-width: 300px;
+            box-shadow: 0 0 5px 5px rgba(120, 120, 120, 0.493);
+            border-radius: 10px;
+            text-align: left;
+            background: rgba(0,0,0,0.25);
             h3{
-                color: red;
+                color: $projectsSectionTitle;
+                display: block;
+                font-size: 24px;
+                span{
+                    font-size: 0.9em;
+                }
             }
+            strong{
+                font-size: 1em;
+                color: $projectsSectionStrong;
+                margin-right: 0.5em;
+            }
+            .links-container,.code-container, .techonologies-container{
+                display: block;
+                a,a:active{
+                    margin-right: 1rem;
+                    color: $projectsSectionLinks;
+                    font-weight: bold;
+                    svg{
+                        margin-left: 3px;
+                        vertical-align: baseline;
+                    }
+                }
+            }
+            .techonologies-container{
+                strong{
+                    vertical-align: top;
+                    display: inline-block;
+                }
+                .technologies-list-container{
+                    display: flex;  
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: space-around;
+                    div{
+                        padding: 10px;
+                        display: block;
+                        margin: 10px;
+                        max-width: 250px;
+                        text-align: center;
+                        p{
+                            text-align: left;
+                            margin-top: 20px;
+                        }
+                        img{
+                            text-align: center;
+                            margin: auto;
+                            vertical-align: middle;
+                            height: 40px;
+                            display: inline-block;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            p{
+                color: $projectsSectionDescriptions;
+            }
+            
         }
     }
 }

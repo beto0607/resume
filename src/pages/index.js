@@ -25,21 +25,22 @@ const IndexPage = () => {
 			id={personal_id}/>
 		<ProjectSection 
 			id={projects_id}/>
-		<KnowledgeSection 
-			id={knowledge_id}/>
+{/*		<KnowledgeSection 
+id={knowledge_id}/>
+		<OthersSection 
+        id={others_id}/>
+        {id: knowledge_id, name:"Knoweldge"},
+        {id: others_id, name:"More"}
+*/}
 		<CoverLetterSection 
 			id={cover_letter_id}/>
 		<EducationSection
 			id={education_id}/>
-		<OthersSection 
-			id={others_id}/>
 		<Header sections={[
 			{id: personal_id, name:"Information"},
 			{id: projects_id, name:"Projects"},
-			{id: knowledge_id, name:"Knoweldge"},
 			{id: cover_letter_id, name:"Cover letter"},
 			{id: education_id, name:"Education"},
-			{id: others_id, name:"More"}
 		]}/>
   </React.Fragment>)
 }

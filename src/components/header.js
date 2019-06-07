@@ -9,7 +9,6 @@ class Header extends Component{
         this.sections = props.sections || [];
     }
     render(){
-        console.log(this.sections);
         return (
             <header>
                 {
