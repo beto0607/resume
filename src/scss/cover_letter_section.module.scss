@@ -2,9 +2,8 @@
 @import './modules/box.module';
 
 .wrapper{
-    height: 100vh;
     display: grid;
-
+    grid-row-gap: 40px;
     grid-template-areas: 
         't1 top t2'
         'm1 middle m2'

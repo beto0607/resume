@@ -2,6 +2,16 @@ import React from "react"
 import projectsSectionStyles from "../scss/projects_section.module.scss"
 import { FaExternalLinkAlt, FaCode, FaChevronRight} from 'react-icons/fa';
 
+const _handlerClickTechnologies = (event)=>{
+    const parent = event.target.closest('.'+projectsSectionStyles.technologiesContainer);
+    if(parent.classList.contains(projectsSectionStyles.visible)){
+        parent.classList.remove(projectsSectionStyles.visible);
+        event.target.innerText = 'Made with...';
+    }else{
+        parent.classList.add(projectsSectionStyles.visible);
+        event.target.innerText = 'Collapse...';
+    }
+};
 const ProjectItem = ({
     title,
     year,
@@ -42,7 +52,7 @@ const ProjectItem = ({
             }
             {
                 technologies.length > 0 && (
-                    <div className={projectsSectionStyles.techonologiesContainer}>
+                    <div className={projectsSectionStyles.technologiesContainer}>
                         <div className={projectsSectionStyles.technologiesListContainer}>
                             {technologies.map((element,index)=>{
                                 return (<div key={"project_element_#"+index}>
@@ -50,6 +60,11 @@ const ProjectItem = ({
                                     <p>{element.description}</p>
                                 </div>)
                             })}
+                        </div>
+                        <div className={projectsSectionStyles.seeTechnologies} onClick={_handlerClickTechnologies}>
+                            <strong>
+                                Made with...
+                            </strong>
                         </div>
                     </div>
                 )
