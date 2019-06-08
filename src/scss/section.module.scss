@@ -23,7 +23,8 @@ body{
 		/*! keep */
 	}
 	&#others_section{
-		/*! keep */
+        /*! keep */
+        display: none;
 	}
 	@media (min-height: $backgrondImageHeight+'px') {
 		background-size: auto 100%;

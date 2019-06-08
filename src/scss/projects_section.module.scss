@@ -1,11 +1,11 @@
 @import 'variables';
+@import 'modules/box.module';
 
 .wrapper{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 2px solid red;
     h1{
-        color: $infoSectionText;
+        color: $headersColor;
     }
     ul{
         li{
@@ -14,12 +14,9 @@
             padding: 1rem 1.5rem;
             max-width: 90%;
             min-width: 300px;
-            box-shadow: 0 0 5px 5px rgba(120, 120, 120, 0.493);
-            border-radius: 10px;
             text-align: left;
-            background: rgba(0,0,0,0.25);
             h3{
-                color: $projectsSectionTitle;
+                color: $headersColor;
                 display: block;
                 font-size: 24px;
                 span{
@@ -28,18 +25,23 @@
             }
             strong{
                 font-size: 1em;
-                color: $projectsSectionStrong;
+                color: $headersColor;
                 margin-right: 0.5em;
             }
             .links-container,.code-container, .techonologies-container{
                 display: block;
                 a,a:active{
                     margin-right: 1rem;
-                    color: $projectsSectionLinks;
+                    color: $linksColor;
                     font-weight: bold;
+                    transition-duration: 250ms;
+                    line-height: 1.1em;
                     svg{
                         margin-left: 3px;
                         vertical-align: baseline;
+                    }
+                    &:hover{
+                        color: $linksColorHover;
                     }
                 }
             }
@@ -76,7 +78,7 @@
                 }
             }
             p{
-                color: $projectsSectionDescriptions;
+                color: $descriptionsColor;
             }
             
         }

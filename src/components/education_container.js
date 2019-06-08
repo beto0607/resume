@@ -11,7 +11,7 @@ const EducationContainer = ({title, data})=>{
                 {
                     data.map(({title, link, description, year}, index)=>{
                         return(
-                        <li key={`education_${title.toLowerCase()}#${index}`}>
+                        <li className={educationStyles.box} key={`education_${title.toLowerCase()}#${index}`}>
                             <strong>
                                 {title}
                                 {link.length ?(<a href={link}><FaExternalLinkAlt/></a>):null}

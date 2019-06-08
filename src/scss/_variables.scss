@@ -3,49 +3,20 @@ $backgrondImageHeight: 900;
 
 $backgroundUrl: 'https://source.unsplash.com/collection/590961/'+$backgrondImageWidth+'x'+$backgrondImageHeight;
 
-$bodyBackground: linear-gradient(60deg, rgb(36, 17, 105) 0%, rgba(42, 111, 134, 1) 40%, rgba(36, 17, 105, 1) 100%);
+$bodyBackground: linear-gradient(60deg, rgb(58, 55, 70) 0%, rgb(104, 158, 177) 40%, rgb(61, 58, 71) 100%);
 
-$infoSectionBackground: rgb(3, 9, 92);
-$infoSectionText: #dddddd;
-$infoSectionAHover: #eeeeee;
+$headersColor:rgb(221, 221, 221);
+$descriptionsColor: rgb(205, 205, 205);
+$linksColor: rgb(0, 205, 235);
+$linksColorHover: rgb(0, 225, 255);
+$headerColor: rgb(248, 248, 248);
+$headerOnHoverColor: rgb(255, 255, 255);
+
+$boxShadowItems: 0 0 5px 5px rgba(120, 120, 120, 0.493);
+$boxItemBackgroundColor: rgba(0,0,0,0.25);
+
 $profilesBackground: #e0e0e0;
-$profilesBorders: #dddddd;
-
-$coverLetterTitleColor: rgba(207, 215, 222, 0.9);
-$coverLetterHeaderColor: white;
-$coverLetterContentColor: white;
-
-$knowledgeSectionText: rgba(123,123,123,1);
-$knowledgeItemBackground: rgba(87, 87, 87, 0.1);
-$knowledgeItemBorder: rgba(87, 87, 87, 1);
-$knowledgeItemColor: rgb(46, 150, 219);
-$knowledgeItemInformationBeforeBackground: rgba(97, 44, 44, 0.5);
-$knowledgeItemInformationBackgroundColor: rgb(0, 0, 0);
-$knowledgeItemInformationBackground: black;//linear-gradient(70deg, rgb(68, 10, 83) 0%, rgb(34, 117, 59) 180%);
-$knowledgeItemInformationBorder: rgba(69, 223, 107,0);
-$knowledgeItemInformationBoxShadow: 0rem 0 3rem 1rem rgba(29, 56, 116, 0.685);
-$knowledgeItemInformationImageBackground: rgb(185, 185,185);
-$knowledgeItemInformationImageBoxShadow: 0 0 10px 6px rgba(66, 126, 194, 0.664);
-$knowledgeItemInformationTitleColor: rgb(224, 224, 224);
-$knowledgeItemInformationDescriptionColor: rgb(224, 224, 224);
-$knowledgeItemInformationParagraphColor: rgb(185, 185, 185);
-$knowledgeProjectItemStatusTitleColor: rgb(224, 224, 224);
-$knowledgeProjectItemStatusColor: rgb(0, 155, 78);
-$knowledgeProjectItemLinkColor: rgb(55, 116, 63);
-$knowledgeProjectItemSvgColor: rgb(0, 156, 135);
-$knowledgeProjectItemBoxShadow: 0 0 10px 1px rgba(66, 126, 194, 0.664);
-
+$profilesBorders: #ddd;
 
 $headerBackgroundColor: rgba(0, 0, 0, 0.3);
 $headerHoverBackgroundColor: rgba(0, 0, 0, 0.7);
-$headerLinkColor: #dddddd;
-$headerLinkHoverColor: rgb(255,255,255);
-
-
-$educationTitleColor: rgb(209, 186, 143);
-
-
-$projectsSectionTitle: #dddddd;
-$projectsSectionStrong: #cdcdcd;
-$projectsSectionDescriptions: #cdcdcd;
-$projectsSectionLinks: #00e1ff;

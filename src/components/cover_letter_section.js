@@ -22,8 +22,8 @@ const CoverLetterSection = (props)=>{
         <SectionContainer name="cover_letter"  id={props.id} {...props}>
             <div className={coverSectionStyles.wrapper}>
                 <h1>{data.dataJson.cover_letter.title}</h1>
-                <p className={coverSectionStyles.header}>{data.dataJson.cover_letter.header}</p>
-                <p className={coverSectionStyles.content}>{data.dataJson.cover_letter.content}</p>
+                <p className={coverSectionStyles.header +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.header}</p>
+                <p className={coverSectionStyles.content +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.content}</p>
             </div>
         </SectionContainer>
     )

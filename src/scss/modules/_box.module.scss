@@ -1,0 +1,7 @@
+@import 'variables';
+.box{
+
+    box-shadow: $boxShadowItems;
+    border-radius: 10px;
+    background-color: $boxItemBackgroundColor;
+}

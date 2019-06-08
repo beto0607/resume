@@ -11,7 +11,7 @@ const ProjectItem = ({
     technologies,
 }) => {
     return (
-        <li>
+        <li className={projectsSectionStyles.box}>
             <h3>{title}{year > 0 && (<span>, {year}</span>)}</h3>
             {
                 description.length > 0 &&(

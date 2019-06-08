@@ -1,4 +1,6 @@
 @import 'variables';
+@import './modules/box.module';
+
 .wrapper{
     height: 100vh;
     display: grid;
@@ -13,22 +15,18 @@
         display: block;
     }
     h1{
-        color: $coverLetterTitleColor;
+        color: $headersColor;
         grid-area: top;
         text-decoration: underline;
     }
     .header{
-        color: $coverLetterHeaderColor;
+        color: $descriptionsColor;
         grid-area: middle;
-        background: rgba(100,100,100,.5);
         padding: 1em;
-        border-radius: 10px;
     }
     .content{
-        color: $coverLetterContentColor;
+        color: $descriptionsColor;
         grid-area: bottom;
-        background: rgba(100,100,100,.5);
         padding: 1em;
-        border-radius: 10px;
     }
 }

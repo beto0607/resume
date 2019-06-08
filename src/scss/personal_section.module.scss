@@ -1,6 +1,8 @@
 @import 'variables';
+@import './modules/box.module';
+
 .wrapper{
-    color: $infoSectionText;
+    color: $headersColor;
     text-align: center;
     vertical-align: middle;
     height: 100%;
@@ -21,14 +23,14 @@
         cursor: default;
     }
     a{
-        color: $infoSectionText;
+        color: $headersColor;
         font-weight: 600;
         svg{
             vertical-align: middle;
             margin-right: 5px;
         }
         &:hover{
-            color: $infoSectionAHover;
+            color: $headerOnHoverColor;
         }
     }
     .bottom{
