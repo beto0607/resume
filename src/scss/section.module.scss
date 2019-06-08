@@ -10,8 +10,18 @@ body{
 	vertical-align: middle;
 	
 	&#personal_section{
-		background-image: url($backgroundUrl);
-		height: 100vh;
+        background-image: url($backgroundUrl);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        animation: anim 30s infinite;
+        @keyframes anim {
+            @for $i from 1 through 5{
+                #{$i * 20%}{
+                    background-image: url(#{$backgroundUrl+"?v="+$i});
+                }
+            }
+        }
 	}
 	&#projects_section{
 		/*! keep */
