@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import sectionStyles from "../scss/section.module.scss"
 import Header from "../components/header"
@@ -19,6 +20,9 @@ const IndexPage = () => {
     console.log(others_id);
     return (
         <React.Fragment>
+            <Helmet>
+                <title>Resume - Roberto Albanesi</title>
+            </Helmet>
             <PersonalSection
                 id={personal_id} />
             <ProjectSection

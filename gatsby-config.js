@@ -3,6 +3,7 @@ module.exports = {
     title: `Resume`,
     description: `Resume page.`,
     author: `@beto0607`,
+    siteUrl: `https://www.alroj.tech/`,
   },
   plugins: [
     `gatsby-plugin-typography`,
