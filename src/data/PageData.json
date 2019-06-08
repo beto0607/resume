@@ -25,6 +25,11 @@
             "name": "HackerRank",
             "link": "https://www.hackerrank.com/beto0607",
             "icon": "hackerrank.svg"
+        },
+        {
+            "name": "Codecademy",
+            "link": "https://www.codecademy.com/beto0607",
+            "icon": "codecademy.png"
         }
     ],
     "cover_letter": {
@@ -332,12 +337,14 @@
             {
                 "title": "Analista Programador Universitario",
                 "description": "",
+                "place": "UNLP",
                 "link": "https://www.info.unlp.edu.ar/carreras-gradoarticulo/2015linuevo/",
                 "year": "2019"
             },
             {
                 "title": "IT Technician",
                 "description": "",
+                "place": "EET N9",
                 "link": "",
                 "year": "2008"
             }
@@ -346,6 +353,7 @@
             {
                 "title": "PC repair",
                 "description": "",
+                "place": "UNLP",
                 "link": "",
                 "year": "2010"
             },
@@ -357,16 +365,26 @@
             },
             {
                 "title": "Find objects in video",
+                "place": "UNLP",
                 "description": "",
                 "link": "",
                 "year": "2018"
             },
             {
                 "title": "Android SDK",
+                "place": "Cacic",
+                "description": "",
+                "link": "",
+                "year": "2017"
+            },
+            {
+                "title": "React.JS",
+                "place": "Codecademy",
                 "description": "",
                 "link": "",
                 "year": "2017"
             }
+            
         ]
     },
     "work": []

@@ -9,6 +9,13 @@
         'm1 middle m2'
         'b1 bottom b2';
     grid-template-columns: 40px auto 40px;
+    @media screen and (max-width: 480px){
+        grid-row-gap: 30px;
+        grid-template-columns: 10px auto 10px;        
+        h1{
+            margin-bottom: 5px;
+        }
+    }
     *{
         margin: auto;
         display: block;
