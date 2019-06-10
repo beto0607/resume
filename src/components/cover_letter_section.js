@@ -13,6 +13,7 @@ const CoverLetterSection = (props)=>{
                         title
                         header
                         content
+                        work
                     }
                 }
 			}
@@ -24,6 +25,7 @@ const CoverLetterSection = (props)=>{
                 <h1>{data.dataJson.cover_letter.title}</h1>
                 <p className={coverSectionStyles.header +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.header}</p>
                 <p className={coverSectionStyles.content +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.content}</p>
+                <p className={coverSectionStyles.work +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.work}</p>
             </div>
         </SectionContainer>
     )

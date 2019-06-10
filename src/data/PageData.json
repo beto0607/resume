@@ -34,8 +34,9 @@
     ],
     "cover_letter": {
         "title": "Cover letter",
-        "header": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id        ",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique urna sed sem dignissim faucibus. Ut sed sem in risus molestie imperdiet. Maecenas nec tristique turpis, consectetur facilisis quam. Curabitur quam massa, semper vel malesuada quis, rutrum sed enim. Nullam elit felis, pharetra eu sagittis vulputate, egestas vel tellus. Quisque augue leo, bibendum eu nulla eu, congue vestibulum ex. Integer enim magna, tincidunt at euismod sed, mollis nec quam. Proin ac velit iaculis, tempor libero nec, finibus turpis. Proin efficitur mi vitae tortor suscipit hendrerit at vel felis.\nNunc imperdiet dui in nibh facilisis, vitae porttitor massa ultricies. Fusce congue vulputate eleifend. Maecenas posuere ligula sed neque ultrices dapibus. Suspendisse eu elit hendrerit, convallis felis id, elementum ex. Mauris ante dui, lacinia sed varius et, iaculis ut ante. In hac habitasse platea dictumst. Sed sodales, dui ac feugiat laoreet, lectus purus luctus sem, id interdum ligula ipsum ac lorem. Curabitur varius mauris ac volutpat dapibus. Vivamus sit amet nisi fringilla, ultricies ante vel, cursus mi. Phasellus convallis vel nibh eu porttitor."
+        "header": "I am a quick learner, I have curiosity in how things works, I always try to help the people I know and advise them in what I can. I feel comfortable working as part of a team. I love puzzles and problem solving. I am reliable.",
+        "content": "I have some experiencie in differents fields of Software development in my work as freelancer in Argentina. I came to Sweden to learn about swedish culture, make friends and work in Software development. I want to improve my self and start my way to be an expert. I love games, so I would like to be a game developer someday.",
+        "work": "I have been working in differents jobs. My longest was as train driver where I worked for 7 years meanwhile I was in college. I learned about responsabilities, hard work and offer a reliable service. Previous, I have been working as Data Entry in a insurance company."
     },
     "projects": [
         {
@@ -338,7 +339,7 @@
                 "title": "Analista Programador Universitario",
                 "description": "",
                 "place": "UNLP",
-                "link": "https://www.info.unlp.edu.ar/carreras-gradoarticulo/2015linuevo/",
+                "link": "https://www.info.unlp.edu.ar/carreras-gradoarticulo/plan-2015-analista-programador-universitario-nuevo/",
                 "year": "2019"
             },
             {

@@ -7,8 +7,9 @@
     grid-template-areas: 
         't1 top t2'
         'm1 middle m2'
-        'b1 bottom b2';
-    grid-template-columns: 40px auto 40px;
+        'b1 bottom b2'
+        'b21 bottom2 b22';
+    grid-template-columns: auto 90% auto;
     @media screen and (max-width: 480px){
         grid-row-gap: 30px;
         grid-template-columns: 10px auto 10px;        
@@ -25,6 +26,11 @@
         grid-area: top;
         text-decoration: underline;
     }
+    p{
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 34px;
+    }
     .header{
         color: $descriptionsColor;
         grid-area: middle;
@@ -33,6 +39,11 @@
     .content{
         color: $descriptionsColor;
         grid-area: bottom;
+        padding: 1em;
+    }
+    .work{
+        color: $descriptionsColor;
+        grid-area: bottom2;
         padding: 1em;
     }
 }

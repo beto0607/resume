@@ -14,12 +14,14 @@ const EducationSection = (props)=>{
                   description
                   link
                   year
+                  place
                 }
                 courses {
                   title
                   description
                   link
                   year
+                  place
                 }
             }
         }
