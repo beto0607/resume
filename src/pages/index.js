@@ -21,6 +21,8 @@ const IndexPage = () => {
         <React.Fragment>
             <Helmet>
                 <title>Resume - Roberto Albanesi</title>
+                <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"/>
             </Helmet>
             <PersonalSection
                 id={personal_id} />

@@ -30,7 +30,8 @@
         "react-moment": "^0.9.2",
         "react-typography": "^0.16.19",
         "typescript": "^3.4.5",
-        "typography": "^0.16.19"
+        "typography": "^0.16.19",
+        "typography-theme-funston": "^0.16.19"
     },
     "devDependencies": {
         "prettier": "^1.17.0"
