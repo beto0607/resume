@@ -4,11 +4,12 @@
 .wrapper{
     display: grid;
     grid-row-gap: 40px;
-    grid-template-areas: 
-        't1 top t2'
-        'm1 middle m2'
-        'b1 bottom b2'
-        'b21 bottom2 b22';
+    // grid-template-areas: 
+    //     't1 top t2'
+    //     'm1 middle m2'
+    //     'b1 bottom b2'
+    //     'b21 bottom2 b22';
+    grid-template-rows: auto;
     grid-template-columns: auto 90% auto;
     @media screen and (max-width: 480px){
         grid-row-gap: 30px;
@@ -23,27 +24,18 @@
     }
     h1{
         color: $headersColor;
-        grid-area: top;
         text-decoration: underline;
+        grid-row: 1;
+        grid-column: 2;
     }
     p{
         font-size: 20px;
         letter-spacing: 1px;
         line-height: 34px;
     }
-    .header{
+    .paragraph{
         color: $descriptionsColor;
-        grid-area: middle;
-        padding: 1em;
-    }
-    .content{
-        color: $descriptionsColor;
-        grid-area: bottom;
-        padding: 1em;
-    }
-    .work{
-        color: $descriptionsColor;
-        grid-area: bottom2;
+        grid-column: 2;
         padding: 1em;
     }
 }

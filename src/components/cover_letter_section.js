@@ -11,9 +11,7 @@ const CoverLetterSection = (props)=>{
 				dataJson{
                     cover_letter {
                         title
-                        header
-                        content
-                        work
+                        paragraphs
                     }
                 }
 			}
@@ -23,9 +21,12 @@ const CoverLetterSection = (props)=>{
         <SectionContainer name="cover_letter"  id={props.id} {...props}>
             <div className={coverSectionStyles.wrapper}>
                 <h1>{data.dataJson.cover_letter.title}</h1>
-                <p className={coverSectionStyles.header +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.header}</p>
-                <p className={coverSectionStyles.content +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.content}</p>
-                <p className={coverSectionStyles.work +' '+ coverSectionStyles.box}>{data.dataJson.cover_letter.work}</p>
+                {(
+                    data.dataJson.cover_letter.paragraphs.map((element, index)=>(
+                        <p className={coverSectionStyles.paragraph +' '+ coverSectionStyles.box} key={`cover_letter_paragrphs${index}`}>{element}</p>
+
+                    ))
+                )}
             </div>
         </SectionContainer>
     )

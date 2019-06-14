@@ -34,9 +34,12 @@
     ],
     "cover_letter": {
         "title": "Cover letter",
-        "header": "I am a quick learner, I have curiosity in how things works, I always try to help the people I know and advise them in what I can. I feel comfortable working as part of a team. I love puzzles and problem solving. I am reliable.",
-        "content": "I have some experiencie in differents fields of Software development in my work as freelancer in Argentina. I came to Sweden to learn about swedish culture, make friends and work in Software development. I want to improve my self and start my way to be an expert. I love games, so I would like to be a game developer someday.",
-        "work": "I have been working in differents jobs. My longest was as train driver where I worked for 7 years meanwhile I was in college. I learned about responsabilities, hard work and offer a reliable service. Previous, I have been working as Data Entry in a insurance company."
+        "paragraphs":[
+            "I am a 28 years old Argentinian. I am in Sweden with a visa Working Holiday. I have finished college this year. My degree title is Analista Programador Universitario.",
+            "I am a quick learner, I have curiosity in how things works, I always try to help the people I know and recommend them in what I can. I feel comfortable working as part of a team. I love puzzles and problem solving. I am reliable.",
+            "I have some experience in different fields of Software development in my work as freelancer in Argentina. I came to Sweden to learn about swedish culture, make friends and work in Software development. I want to improve my self and start my way to become an expert. I love games, so I would like to become a game developer someday.",
+            "I have worked in different jobs. My longest was as train driver where I worked for 7 years meanwhile I was in college. I learned about responsibilities, hard work and offer a reliable service. Previous, I have worked as Data Entry in an insurance company."
+        ]
     },
     "projects": [
         {
