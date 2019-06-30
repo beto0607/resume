@@ -16,7 +16,7 @@ const EducationContainer = ({title, data})=>{
                                 {title}
                             </strong>
                             
-                            <span> - {place}{link.length ?(<a href={link} target="_blank"><FaExternalLinkAlt/></a>):null} {year}</span>
+                            <span> - {place}{link.length ?(<a href={link} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt/></a>):null} {year}</span>
                             <p>{description}</p>
                         </li>)
                     })

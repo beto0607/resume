@@ -24,11 +24,11 @@ const InfoContainer = () =>{
 			<h2>
 				{data.dataJson.information.name}
 			</h2>	
-			<a href={`mailto:${data.dataJson.information.email}`} target="_blank">
+			<a href={`mailto:${data.dataJson.information.email}`} target="_blank" rel="noopener noreferrer">
 				<FaEnvelope/>
 				{data.dataJson.information.email}
 			</a>
-            <a href='cv.pdf' target="_blank">
+            <a href='cv.pdf' target="_blank" rel="noopener noreferrer">
 				<FaDownload />
 				Curriculum Vitae
 			</a>
