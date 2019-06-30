@@ -6,7 +6,7 @@ import styles from "./Knowledge.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
 import SectionContainer from "../section"
 
-const KnowledgeSection = (props) => {
+const KnowledgeSection = props => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -25,7 +25,7 @@ const KnowledgeSection = (props) => {
         <h1>I know</h1>
         <ul>
           {data.dataJson.knowledge.map(({ title, icon }) => (
-            <li key={`knowledge_${title}`}>
+            <li key={`knowledge_${title}`} className={styles.box}>
               <img src={icon} alt={title} />
               <h3>{title}</h3>
             </li>
@@ -36,4 +36,4 @@ const KnowledgeSection = (props) => {
   )
 }
 
-export default KnowledgeSection;
+export default KnowledgeSection
