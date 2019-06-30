@@ -392,5 +392,82 @@
             
         ]
     },
-    "work": []
+    "knowledge":[
+        {
+            "title": "PHP",
+            "icon": "php.svg"
+        },
+        {
+            "title": "Ruby",
+            "icon": "ruby.svg"
+        },
+        {
+            "title": "On Rails",
+            "icon": "rails_icon.svg"
+        },
+        {
+            "title": "Python",
+            "icon": "python.png"
+        },
+        {
+            "title": "Unity 3D",
+            "icon": "unity-icon.png"
+        },
+        {
+            "title": "Smalltalk - Pharo",
+            "icon": "pharo.png"
+        },
+        {
+            "title": "HTML5",
+            "icon": "html5.svg"
+        },
+        {
+            "title": "CSS",
+            "icon": "css.svg"
+        },
+        {
+            "title": "JavaScript",
+            "icon": "javascript.png"
+        },
+        {
+            "title": "jQuery",
+            "icon": "jquery.png"
+        },
+        {
+            "title": "React.js",
+            "icon": "reactjs.svg"
+        },
+        {
+            "title": "Gatsby",
+            "icon": "gatsby-icon.png"
+        },
+        {
+            "title": "Magento",
+            "icon": "magento_logo.png"
+        },
+        {
+            "title": "SASS",
+            "icon": "sass.png"
+        },
+        {
+            "title": "Heroku",
+            "icon": "heroku.svg"
+        },
+        {
+            "title": "PostgreSQL",
+            "icon": "postgresql.png"
+        },
+        {
+            "title": "MySQL",
+            "icon": "mysql.png"
+        },
+        {
+            "title": "Git",
+            "icon": "git.svg"
+        },
+        {
+            "title": "Github",
+            "icon": "github_dark.png"
+        }
+    ]
 }
