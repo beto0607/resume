@@ -1,41 +1,25 @@
-@import 'variables';
-@import './modules/box.module';
+@import "variables";
+@import "./modules/box.module";
 
-.wrapper{
-    display: grid;
-    grid-row-gap: 40px;
-    // grid-template-areas: 
-    //     't1 top t2'
-    //     'm1 middle m2'
-    //     'b1 bottom b2'
-    //     'b21 bottom2 b22';
-    grid-template-rows: auto;
-    grid-template-columns: auto 90% auto;
-    @media screen and (max-width: 480px){
-        grid-row-gap: 30px;
-        grid-template-columns: 10px auto 10px;        
-        h1{
-            margin-bottom: 5px;
-        }
-    }
-    *{
-        margin: auto;
-        display: block;
-    }
-    h1{
-        color: $headersColor;
-        text-decoration: underline;
-        grid-row: 1;
-        grid-column: 2;
-    }
-    p{
-        font-size: 20px;
-        letter-spacing: 1px;
-        line-height: 34px;
-    }
-    .paragraph{
-        color: $descriptionsColor;
-        grid-column: 2;
-        padding: 1em;
-    }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  & > * {
+    flex-basis: 100%;
+    margin: 20px auto;
+    display: block;
+    width: 90%;
+  }
+  h1 {
+    color: $headersColor;
+    text-decoration: underline;
+  }
+  .paragraph {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: $descriptionsColor;
+    padding: 1em;
+  }
 }
