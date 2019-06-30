@@ -26,16 +26,16 @@ const IndexPage = () => {
             </Helmet>
             <PersonalSection
                 id={personal_id} />
-            <ProjectSection
-                id={projects_id} />
             <CoverLetterSection
                 id={cover_letter_id} />
+            <ProjectSection
+                id={projects_id} />
             <EducationSection
                 id={education_id} />
             <Header sections={[
                 { id: personal_id, name: "Information" },
-                { id: projects_id, name: "Projects" },
                 { id: cover_letter_id, name: "Cover letter" },
+                { id: projects_id, name: "Projects" },
                 { id: education_id, name: "Education" }
             ]} />
         </React.Fragment>)
