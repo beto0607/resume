@@ -6,35 +6,34 @@ import styles from "./Knowledge.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
 import SectionContainer from "../section"
 
-class Knowledge extends React.Component {
-  render() {
-    const data = useStaticQuery(
-      graphql`
-        query {
-          dataJson {
-            knowledge {
-              title
-              icon
-            }
+const KnowledgeSection = (props) => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        dataJson {
+          knowledge {
+            title
+            icon
           }
         }
-      `
-    )
-    return (
-      <SectionContainer name="knowledge" id={this.props.id} {...this.props}>
-        <div className={styles.container}>
-          <h1>I know</h1>
-          <ul>
-            {data.dataJson.knowledge.map(({ title, icon }) => (
-              <li key={`knowledge_${title}`}>
-                <img src={icon} alt={title} />
-                <h3>{title}</h3>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </SectionContainer>
-    )
-  }
+      }
+    `
+  )
+  return (
+    <SectionContainer name="knowledge" id={props.id} {...props}>
+      <div className={styles.container}>
+        <h1>I know</h1>
+        <ul>
+          {data.dataJson.knowledge.map(({ title, icon }) => (
+            <li key={`knowledge_${title}`}>
+              <img src={icon} alt={title} />
+              <h3>{title}</h3>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </SectionContainer>
+  )
 }
-export default Knowledge
+
+export default KnowledgeSection;

@@ -8,7 +8,7 @@ import ProjectSection from "../components/project_section"
 import CoverLetterSection from "../components/cover_letter_section"
 import EducationSection from "../components/education_section"
 import typography from '../utils/typography'
-import Knowledge from "../components/Knowledge/Knowledge";
+import KnowledgeSection from "../components/Knowledge/Knowledge";
 
 const IndexPage = () => {
     typography.injectStyles()
@@ -34,7 +34,7 @@ const IndexPage = () => {
                 id={projects_id} />
             <EducationSection
                 id={education_id} />
-            <Knowledge
+            <KnowledgeSection
                 id={knowledge_id} />
             <Header sections={[
                 { id: personal_id, name: "Information" },
