@@ -34,12 +34,12 @@
     ],
     "cover_letter": {
         "title": "Cover letter",
-        "paragraphs":[
+        "paragraphs": [
             "I am a 28 years old Argentinian I moved in to Sweden. I have finished college this year as Analista Programador Universitario.",
             "I am a quick learner, I am very curious in differents things and how they works(physics, electronics, software, etc). I always try to help. I am comfortable working in teams. I love puzzles and problem solving.",
             "I don’t have hobbies, but I enjoy music, movies, series, manga, books, board-games and videogames.",
             "I have acquired some experience in different fields of Software development in my work as freelancer and in College. I want to improve my self and start my way to become an expert.",
-			"I have worked in different jobs. My longest work was as train driver where I worked for 7 years meanwhile I was in college. I learned about responsibilities, hard work and offer a reliable service. Previous, I have worked as Data Entry in an insurance company and others unrelated jobs."
+            "I have worked in different jobs. My longest work was as train driver where I worked for 7 years meanwhile I was in college. I learned about responsibilities, hard work and offer a reliable service. Previous, I have worked as Data Entry in an insurance company and others unrelated jobs."
         ]
     },
     "projects": [
@@ -53,7 +53,6 @@
             "code": [
                 "https://github.com/beto0607/resume"
             ],
-
             "description": "Making this website I learned about Gatsby, GraphQL and React.js. I also improved my knowledge of GitHub and Heroku.",
             "technologies": [
                 {
@@ -80,13 +79,12 @@
                 "http://eduntref.com.ar/magento/"
             ],
             "code": [],
-
             "description": "Whit this e-commmerce was I learned about Magento version 1.9. We were a team of 2 programmers, a designer and  a producer. Part of my job was develop a theme, add plugins and bug fixing.",
             "technologies": [
                 {
                     "title": "Magento",
                     "icon": "magento_logo.png",
-                    "description": "Version 1.9. I had to write themes, scripts and add plugins." 
+                    "description": "Version 1.9. I had to write themes, scripts and add plugins."
                 },
                 {
                     "title": "PHP",
@@ -107,19 +105,17 @@
                 "http://temp.eduntref.com.ar/"
             ],
             "code": [],
-
             "description": "Currently, we are updating this e-commerce to Magento 2.1, changing the design and adding features.",
             "technologies": [
                 {
                     "title": "Magento",
                     "icon": "magento_logo.png",
-                    "description": "Version 1.9. I had to write themes, scripts and add plugins." 
+                    "description": "Version 1.9. I had to write themes, scripts and add plugins."
                 },
                 {
                     "title": "PHP",
                     "icon": "php.svg",
                     "description": "Version 5.6"
-
                 },
                 {
                     "title": "MySQL",
@@ -137,7 +133,6 @@
             "code": [
                 "https://github.com/beto0607/imagenio"
             ],
-
             "description": "Videogame demo. The mechanic is to select an option based on the image from above and a hint.",
             "technologies": [
                 {
@@ -153,14 +148,13 @@
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description":"Used for image load, animations & event handling."
+                    "description": "Used for image load, animations & event handling."
                 }
             ]
         },
         {
             "title": "Tablero",
             "year": 2016,
-
             "description": "Board game for Fundación YPF. I have developed the board, trivias and the minigames(except the solar energy one), using jQuery. We were a team of 3. One artist, a producer and I.",
             "links": [
                 "https://fundacionypf.org/VosylaEnergia/juegos.html",
@@ -179,14 +173,13 @@
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description":"Used for image load, animations & events"
+                    "description": "Used for image load, animations & events"
                 }
             ]
         },
         {
             "title": "Stopmotion",
             "year": 2016,
-
             "description": "Stopmotion experiencie for Fundación YPF. It is a tool for making GIFs in a stop-motion style. We were a team of 4. One artist, a producer and 2 programmers. My job was take the code in PHP from the other programmer and make it a single page application.",
             "links": [
                 "https://fundacionypf.org/VosylaEnergia/juegos.html",
@@ -205,14 +198,13 @@
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description":"Used for image load, animations & events"
+                    "description": "Used for image load, animations & events"
                 }
             ]
         },
         {
             "title": "MDC.AR",
             "year": 2017,
-
             "description": "MDC map. Version in AR.",
             "links": [
                 "https://play.google.com/store/apps/details?id=com.boemiz.mdcar"
@@ -228,7 +220,7 @@
                     "icon": "c_sharp.png"
                 },
                 {
-                    "title":"Vuforia",
+                    "title": "Vuforia",
                     "icon": "vuforia.png"
                 }
             ]
@@ -236,7 +228,6 @@
         {
             "title": "MDC.VR",
             "year": 2017,
-
             "description": "MDC map. Version in AR.",
             "links": [
                 "https://play.google.com/store/apps/details?id=com.mdc.vr"
@@ -252,7 +243,7 @@
                     "icon": "c_sharp.png"
                 },
                 {
-                    "title":"Vuforia",
+                    "title": "Vuforia",
                     "icon": "vuforia.png"
                 }
             ]
@@ -260,7 +251,6 @@
         {
             "title": "Museo Interactivo",
             "year": 2019,
-
             "description": "It is a game for an interactive classroom in Museo de Ciencias Naturales in La Plata. It has 3 modules, one for administration, one for a TV with multitouch input and one for 45 tablets. The game consists in 6 mini-games. And all is controlled from the admin module.",
             "links": [],
             "code": [],
@@ -303,7 +293,7 @@
             "year": 2017,
             "description": "Human rights quiz. Finished in 2017 but published in 2019",
             "code": [],
-            "links":[
+            "links": [
                 "http://www.derechoshumanos.unlp.edu.ar/trivia"
             ],
             "technologies": [
@@ -330,13 +320,11 @@
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description":"Used for Ajax calls, image load, animations & event handling,"
+                    "description": "Used for Ajax calls, image load, animations & event handling,"
                 }
             ]
         }
     ],
-
-
     "education": {
         "formal": [
             {
@@ -373,7 +361,7 @@
                 "place": "UNLP",
                 "description": "",
                 "link": "",
-                "year": "2018"
+                "year": "2017"
             },
             {
                 "title": "Android SDK",
@@ -383,16 +371,22 @@
                 "year": "2017"
             },
             {
+                "title": "Reconocimiento inteligente de objetos en video",
+                "place": "IV Expo Ciencia y tecnología",
+                "description": "",
+                "link": "",
+                "year": "2018"
+            },
+            {
                 "title": "React.JS",
                 "place": "Codecademy",
                 "description": "",
                 "link": "",
-                "year": "2017"
+                "year": "2019"
             }
-            
         ]
     },
-    "knowledge":[
+    "knowledge": [
         {
             "title": "PHP",
             "icon": "php.svg"
