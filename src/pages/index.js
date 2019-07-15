@@ -17,8 +17,6 @@ const IndexPage = () => {
     const cover_letter_id = sectionStyles['cover_letter_section'];
     const education_id = sectionStyles['education_section'];
     const knowledge_id = sectionStyles['knowledge_section'];
-    const others_id = sectionStyles['others_section'];
-    console.log(others_id);
     return (
         <React.Fragment>
             <Helmet>

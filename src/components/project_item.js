@@ -1,13 +1,13 @@
 import React from "react"
 import projectsSectionStyles from "../scss/projects_section.module.scss"
-import { FaExternalLinkAlt, FaCode, FaChevronRight} from 'react-icons/fa';
+import { FaExternalLinkAlt, FaCode, FaChevronRight } from 'react-icons/fa';
 
-const _handlerClickTechnologies = (event)=>{
-    const parent = event.target.closest('.'+projectsSectionStyles.technologiesContainer);
-    if(parent.classList.contains(projectsSectionStyles.visible)){
+const _handlerClickTechnologies = (event) => {
+    const parent = event.target.closest('.' + projectsSectionStyles.technologiesContainer);
+    if (parent.classList.contains(projectsSectionStyles.visible)) {
         parent.classList.remove(projectsSectionStyles.visible);
         event.target.innerText = 'Made with...';
-    }else{
+    } else {
         parent.classList.add(projectsSectionStyles.visible);
         event.target.innerText = 'Collapse...';
     }
@@ -25,7 +25,7 @@ const ProjectItem = ({
         <li className={projectsSectionStyles.box}>
             <h3>{title}{year > 0 && (<span>, {year}</span>)}</h3>
             {
-                description.length > 0 &&(
+                description.length > 0 && (
                     <p>
                         {description}
                     </p>
@@ -34,20 +34,30 @@ const ProjectItem = ({
             {
                 links.length > 0 && (
                     <div className={projectsSectionStyles.linksContainer}>
-                        <strong><FaChevronRight/></strong>
-                        {links.map((element,index)=>{
-                            return (<a _target="blank"  href={element} key={"links_element_"+key_title+"#"+index}>{'Link #'+(index+1)}<FaExternalLinkAlt/></a>)
-                        })}
+                        <strong><FaChevronRight /></strong>
+                        {
+                            links.map((element, index) => (
+                                <a _target="blank" href={element} key={key_title + "_links#" + index}>
+                                    {'Link #' + (index + 1)}
+                                    <FaExternalLinkAlt />
+                                </a>
+                            ))
+                        }
                     </div>
                 )
             }
             {
                 code.length > 0 && (
                     <div className={projectsSectionStyles.codeContainer}>
-                        <strong><FaChevronRight/></strong>
-                        {code.map((element,index)=>{
-                            return (<a _target="blank"  href={element} key={"code_element_"+key_title+"#"+index}>{'Source code #'+(index+1)}<FaCode/></a>)
-                        })}
+                        <strong><FaChevronRight /></strong>
+                        {
+                            code.map((element, index) => (
+                                <a _target="blank" href={element} key={key_title + "_code_link#" + index}>
+                                    {'Source code #' + (index + 1)}
+                                    <FaCode />
+                                </a>
+                            ))
+                        }
                     </div>
                 )
             }
@@ -55,12 +65,14 @@ const ProjectItem = ({
                 technologies.length > 0 && (
                     <div className={projectsSectionStyles.technologiesContainer}>
                         <div className={projectsSectionStyles.technologiesListContainer}>
-                            {technologies.map((element,index)=>{
-                                return (<div key={"project_element_"+key_title+"_#"+index}>
-                                    <img src={element.icon} alt={element.title +" icon"}/>
-                                    <p>{element.description}</p>
-                                </div>)
-                            })}
+                            {technologies.map((element, index) =>
+                                (
+                                    <div key={key_title + "_technology_#" + index}>
+                                        <img src={element.icon} alt={element.title + " icon"} />
+                                        <p>{element.description}</p>
+                                    </div>
+                                )
+                            )}
                         </div>
                         <div className={projectsSectionStyles.seeTechnologies} onClick={_handlerClickTechnologies}>
                             <strong>
