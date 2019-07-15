@@ -35,7 +35,7 @@ const ProjectItem = ({
                     <div className={projectsSectionStyles.linksContainer}>
                         <strong><FaChevronRight/></strong>
                         {links.map((element,index)=>{
-                            return (<a _target="blank"  href={element} key={"project_element_#"+index}>{'Link #'+(index+1)}<FaExternalLinkAlt/></a>)
+                            return (<a _target="blank"  href={element} key={"links_element_"+title+"#"+index}>{'Link #'+(index+1)}<FaExternalLinkAlt/></a>)
                         })}
                     </div>
                 )
@@ -45,7 +45,7 @@ const ProjectItem = ({
                     <div className={projectsSectionStyles.codeContainer}>
                         <strong><FaChevronRight/></strong>
                         {code.map((element,index)=>{
-                            return (<a _target="blank"  href={element} key={"project_element_#"+index}>{'Source code #'+(index+1)}<FaCode/></a>)
+                            return (<a _target="blank"  href={element} key={"code_element_"+title+"#"+index}>{'Source code #'+(index+1)}<FaCode/></a>)
                         })}
                     </div>
                 )
@@ -55,7 +55,7 @@ const ProjectItem = ({
                     <div className={projectsSectionStyles.technologiesContainer}>
                         <div className={projectsSectionStyles.technologiesListContainer}>
                             {technologies.map((element,index)=>{
-                                return (<div key={"project_element_#"+index}>
+                                return (<div key={"project_element_"+title+"_#"+index}>
                                     <img src={element.icon} alt={element.title +" icon"}/>
                                     <p>{element.description}</p>
                                 </div>)
