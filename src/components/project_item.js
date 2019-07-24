@@ -37,7 +37,7 @@ const ProjectItem = ({
                         <strong><FaChevronRight /></strong>
                         {
                             links.map((element, index) => (
-                                <a target="_blank" href={element} key={key_title + "_links#" + index}>
+                                <a rel="noopener noreferrer" target="_blank" href={element} key={key_title + "_links#" + index}>
                                     {'Link #' + (index + 1)}
                                     <FaExternalLinkAlt />
                                 </a>
@@ -52,7 +52,7 @@ const ProjectItem = ({
                         <strong><FaChevronRight /></strong>
                         {
                             code.map((element, index) => (
-                                <a target="_blank" href={element} key={key_title + "_code_link#" + index}>
+                                <a rel="noopener noreferrer" target="_blank" href={element} key={key_title + "_code_link#" + index}>
                                     {'Source code #' + (index + 1)}
                                     <FaCode />
                                 </a>
@@ -67,7 +67,7 @@ const ProjectItem = ({
                         <div className={projectsSectionStyles.technologiesListContainer}>
                             {technologies.map((element, index) =>
                                 (
-                                    <div key={key_title + "_technology_#" + index}>
+                                    <div key={"technology_#" + index}>
                                         <img src={element.icon} alt={element.title + " icon"} />
                                         <p>{element.description}</p>
                                     </div>
