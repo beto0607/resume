@@ -206,36 +206,11 @@
             ]
         },
         {
-            "title": "MDC.AR",
+            "title": "MDC.AR/VR",
             "year": 2017,
-            "description": "MDC map. Version in AR.",
+            "description": "MDC map.",
             "links": [
-                "https://play.google.com/store/apps/details?id=com.boemiz.mdcar"
-            ],
-            "code": [],
-            "technologies": [
-                {
-                    "title": "Unity 3D",
-                    "icon": "unity.png",
-                    "description": ""
-                },
-                {
-                    "title": "C#",
-                    "icon": "c_sharp.png",
-                    "description": ""
-                },
-                {
-                    "title": "Vuforia",
-                    "icon": "vuforia.png",
-                    "description": ""
-                }
-            ]
-        },
-        {
-            "title": "MDC.VR",
-            "year": 2017,
-            "description": "MDC map. Version in AR.",
-            "links": [
+                "https://play.google.com/store/apps/details?id=com.boemiz.mdcar",
                 "https://play.google.com/store/apps/details?id=com.mdc.vr"
             ],
             "code": [],
@@ -320,7 +295,7 @@
         {
             "title": "Museo",
             "year": 2019,
-            "description": "",
+            "description": "It's a game for an interactive classroom in Museo de Ciencias Naturales in La Plata. It has 3 modules, one for administration, one for a TV with multitouch input and one for 45 tablets. The game consists in 6 mini-games. And all is controlled from the admin module.",
             "links": [],
             "code": [],
             "technologies": [
