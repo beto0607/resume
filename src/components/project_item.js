@@ -37,7 +37,7 @@ const ProjectItem = ({
                         <strong><FaChevronRight /></strong>
                         {
                             links.map((element, index) => (
-                                <a _target="blank" href={element} key={key_title + "_links#" + index}>
+                                <a target="_blank" href={element} key={key_title + "_links#" + index}>
                                     {'Link #' + (index + 1)}
                                     <FaExternalLinkAlt />
                                 </a>
@@ -52,7 +52,7 @@ const ProjectItem = ({
                         <strong><FaChevronRight /></strong>
                         {
                             code.map((element, index) => (
-                                <a _target="blank" href={element} key={key_title + "_code_link#" + index}>
+                                <a target="_blank" href={element} key={key_title + "_code_link#" + index}>
                                     {'Source code #' + (index + 1)}
                                     <FaCode />
                                 </a>
