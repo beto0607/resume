@@ -316,6 +316,25 @@
                     "description": "Used for Ajax calls, image load, animations & event handling,"
                 }
             ]
+        },
+        {
+            "title": "Museo",
+            "year": 2019,
+            "description": "",
+            "links": [],
+            "code": [],
+            "technologies": [
+                {
+                    "title": "Unity 3D",
+                    "icon": "unity.png",
+                    "description": ""
+                },
+                {
+                    "title": "C#",
+                    "icon": "c_sharp.png",
+                    "description": ""
+                }
+            ]
         }
     ],
     "education": {
