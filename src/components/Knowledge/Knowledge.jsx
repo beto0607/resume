@@ -24,8 +24,8 @@ const KnowledgeSection = props => {
       <div className={styles.container}>
         <h1>I know</h1>
         <ul>
-          {data.dataJson.knowledge.map(({ title, icon }) => (
-            <li key={`knowledge_${title}`} className={styles.box}>
+          {data.dataJson.knowledge.map(({ title, icon }, index) => (
+            <li key={`knowledge_${index}`} className={styles.box}>
               <img src={icon} alt={title} />
               <h3>{title}</h3>
             </li>

@@ -22,8 +22,8 @@ const ProfilesContainer = (props) =>{
 		<div className={personalSectionStyles.bottom}>
 			<ul>
 				{
-					(data.dataJson.profiles || []).map(element => (
-						<ProfilesItem key={element.name} {...element}/>
+					(data.dataJson.profiles || []).map((element,index) => (
+						<ProfilesItem key={`${element.name}_${index}`} {...element}/>
 					))
 				}
 			</ul>
