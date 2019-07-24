@@ -33,7 +33,7 @@ const ProjectItem = ({
             }
             {
                 links.length > 0 && (
-                    <div className={projectsSectionStyles.linksContainer}>
+                    <div className={projectsSectionStyles.listContainer}>
                         <strong><FaChevronRight /></strong>
                         {
                             links.map((element, index) => (
@@ -48,7 +48,7 @@ const ProjectItem = ({
             }
             {
                 code.length > 0 && (
-                    <div className={projectsSectionStyles.codeContainer}>
+                    <div className={projectsSectionStyles.listContainer}>
                         <strong><FaChevronRight /></strong>
                         {
                             code.map((element, index) => (
@@ -63,7 +63,7 @@ const ProjectItem = ({
             }
             {
                 technologies.length > 0 && (
-                    <div className={projectsSectionStyles.technologiesContainer}>
+                    <div className={projectsSectionStyles.listContainer+' '+projectsSectionStyles.technologiesContainer}>
                         <div className={projectsSectionStyles.technologiesListContainer}>
                             {technologies.map((element, index) =>
                                 (
