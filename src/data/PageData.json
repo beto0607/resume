@@ -316,25 +316,7 @@
                     "description": "Used for Ajax calls, image load, animations & event handling,"
                 }
             ]
-        },
-        {
-            "title": "Museo Interactivo",
-            "year": 2019,
-            "description": "It is a game for an interactive classroom in Museo de Ciencias Naturales in La Plata. It has 3 modules, one for administration, one for a TV with multitouch input and one for 45 tablets. The game consists in 6 mini-games. And all is controlled from the admin module.",
-            "links": [],
-            "code": [],
-            "technologies": [
-                {
-                    "title": "Unity 3D",
-                    "icon": "unity.png",
-                    "description": ""
-                },
-                {
-                    "title": "C#",
-                    "icon": "c_sharp.png",
-                    "description": ""
-                }
-            ]
+        
         }
     ],
     "education": {
