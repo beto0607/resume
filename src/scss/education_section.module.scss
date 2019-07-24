@@ -8,7 +8,6 @@
     grid-template-rows: 60px 30px auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    height: 100vh;
     @media screen and (max-width: 480px){
         grid-template-rows: 60px auto;
         grid-template-columns: auto 90% auto;

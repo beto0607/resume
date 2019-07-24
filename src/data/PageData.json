@@ -163,11 +163,13 @@
             "technologies": [
                 {
                     "title": "HTML5",
-                    "icon": "html5.svg"
+                    "icon": "html5.svg",
+                    "description": ""
                 },
                 {
                     "title": "Javascript",
-                    "icon": "javascript.png"
+                    "icon": "javascript.png",
+                    "description": ""
                 },
                 {
                     "title": "jQuery",
@@ -188,11 +190,13 @@
             "technologies": [
                 {
                     "title": "HTML5",
-                    "icon": "html5.svg"
+                    "icon": "html5.svg",
+                    "description": ""
                 },
                 {
                     "title": "Javascript",
-                    "icon": "javascript.png"
+                    "icon": "javascript.png",
+                    "description": ""
                 },
                 {
                     "title": "jQuery",
@@ -212,15 +216,18 @@
             "technologies": [
                 {
                     "title": "Unity 3D",
-                    "icon": "unity.png"
+                    "icon": "unity.png",
+                    "description": ""
                 },
                 {
                     "title": "C#",
-                    "icon": "c_sharp.png"
+                    "icon": "c_sharp.png",
+                    "description": ""
                 },
                 {
                     "title": "Vuforia",
-                    "icon": "vuforia.png"
+                    "icon": "vuforia.png",
+                    "description": ""
                 }
             ]
         },
@@ -235,15 +242,18 @@
             "technologies": [
                 {
                     "title": "Unity 3D",
-                    "icon": "unity.png"
+                    "icon": "unity.png",
+                    "description": ""
                 },
                 {
                     "title": "C#",
-                    "icon": "c_sharp.png"
+                    "icon": "c_sharp.png",
+                    "description": ""
                 },
                 {
                     "title": "Vuforia",
-                    "icon": "vuforia.png"
+                    "icon": "vuforia.png",
+                    "description": ""
                 }
             ]
         },
@@ -256,11 +266,13 @@
             "technologies": [
                 {
                     "title": "Unity 3D",
-                    "icon": "unity.png"
+                    "icon": "unity.png",
+                    "description": ""
                 },
                 {
                     "title": "C#",
-                    "icon": "c_sharp.png"
+                    "icon": "c_sharp.png",
+                    "description": ""
                 }
             ]
         },
@@ -273,7 +285,8 @@
             "technologies": [
                 {
                     "title": "Ruby",
-                    "icon": "ruby.svg"
+                    "icon": "ruby.svg",
+                    "description": ""
                 },
                 {
                     "title": "On Rails",
