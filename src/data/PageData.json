@@ -15,31 +15,16 @@
             "name": "Github",
             "link": "https://github.com/beto0607",
             "icon": "github_dark.png"
-        },
-        {
-            "name": "CodersRank",
-            "link": "https://profile.codersrank.io/user/beto0607",
-            "icon": "coderanker.jpg"
-        },
-        {
-            "name": "HackerRank",
-            "link": "https://www.hackerrank.com/beto0607",
-            "icon": "hackerrank.svg"
-        },
-        {
-            "name": "Codecademy",
-            "link": "https://www.codecademy.com/beto0607",
-            "icon": "codecademy.png"
         }
     ],
     "cover_letter": {
         "title": "Cover letter",
         "paragraphs": [
-            "I am a 28 years old Argentinian I moved in to Sweden. I have finished college this year as Analista Programador Universitario.",
-            "I am a quick learner, I am very curious in differents things and how they works(physics, electronics, software, etc). I always try to help. I am comfortable working in teams. I love puzzles and problem solving.",
-            "I don’t have hobbies, but I enjoy music, movies, series, manga, books, board-games and videogames.",
-            "I have acquired some experience in different fields of Software development in my work as freelancer and in College. I want to improve my self and start my way to become an expert.",
-            "I have worked in different jobs. My longest work was as train driver where I worked for 7 years meanwhile I was in college. I learned about responsibilities, hard work and offer a reliable service. Previous, I have worked as Data Entry in an insurance company and others unrelated jobs."
+            "I have finished college this year as Analista Programador Universitario in Argentina and moved to Stockholm, Sweden.",
+            "I am used to learn new things and fast, I am very curious, pragmatic, proactive, self-taught, kind and capable. I feel comfortable working as part of a team.",
+            "My hobbiesare: listen to music, watch movies or series, read manga and books, play board-games and videogames, write code and ideas, travel.",
+            "I've acquired experience in different fields of Software development in College and in my work as freelancer. I want to improve my self and become an expert.",
+            "I've been working as train driver since 2012 meanwhile I was in college. I learned about responsibilities, hard work and offer a reliable service. Previous to that, I worked as Data Entry in an insurance company and others jobs in cleaning and maintenance."
         ]
     },
     "projects": [
@@ -52,22 +37,22 @@
             "code": [
                 "https://github.com/beto0607/resume"
             ],
-            "description": "Making this website I learned about Gatsby, GraphQL and React.js. I also improved my knowledge of GitHub and Heroku.",
+            "description": "This web resume",
             "technologies": [
-                {
-                    "title": "GitHub",
-                    "icon": "github_dark.png",
-                    "description": "Used as storage and to make the project public"
-                },
                 {
                     "title": "Gatsby",
                     "icon": "gatsby-icon.png",
-                    "description": "Framework based on React.js for static web development."
+                    "description": ""
+                },
+                {
+                    "title": "GitHub",
+                    "icon": "github_dark.png",
+                    "description": ""
                 },
                 {
                     "title": "Heroku",
                     "icon": "heroku.svg",
-                    "description": "Hosting and continuos deployment"
+                    "description": ""
                 }
             ]
         },
@@ -78,22 +63,22 @@
                 "http://eduntref.com.ar/magento/"
             ],
             "code": [],
-            "description": "Whit this e-commmerce was I learned about Magento version 1.9. We were a team of 2 programmers, a designer and  a producer. Part of my job was develop a theme, add plugins and bug fixing.",
+            "description": "E-commmerce made with Magento 1.9.",
             "technologies": [
                 {
                     "title": "Magento",
                     "icon": "magento_logo.png",
-                    "description": "Version 1.9. I had to write themes, scripts and add plugins."
+                    "description": "Version 1.9."
                 },
                 {
                     "title": "PHP",
                     "icon": "php.svg",
-                    "description": "Version 5.4"
+                    "description": ""
                 },
                 {
                     "title": "MySQL",
                     "icon": "mysql.png",
-                    "description": "Database maintenance and integrity check."
+                    "description": ""
                 }
             ]
         },
@@ -104,22 +89,22 @@
                 "http://temp.eduntref.com.ar/"
             ],
             "code": [],
-            "description": "Currently, we are updating this e-commerce to Magento 2.1, changing the design and adding features.",
+            "description": "Update to Eduntref v1 to Magento 2.1 and added features",
             "technologies": [
                 {
                     "title": "Magento",
                     "icon": "magento_logo.png",
-                    "description": "Version 1.9. I had to write themes, scripts and add plugins."
+                    "description": ""
                 },
                 {
                     "title": "PHP",
                     "icon": "php.svg",
-                    "description": "Version 5.6"
+                    "description": ""
                 },
                 {
                     "title": "MySQL",
                     "icon": "mysql.png",
-                    "description": "Database maintenance and integrity check."
+                    "description": ""
                 }
             ]
         },
@@ -137,24 +122,24 @@
                 {
                     "title": "HTML5",
                     "icon": "html5.svg",
-                    "description": "Only for canvas"
+                    "description": ""
                 },
                 {
                     "title": "Javascript",
                     "icon": "javascript.png",
-                    "description": "Canvas manipulation"
+                    "description": ""
                 },
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description": "Used for image load, animations & event handling."
+                    "description": ""
                 }
             ]
         },
         {
             "title": "Tablero",
             "year": 2016,
-            "description": "Board game for Fundación YPF. I have developed the board, trivias and the minigames(except the solar energy one), using jQuery. We were a team of 3. One artist, a producer and I.",
+            "description": "Board game for Fundación YPF.",
             "links": [
                 "https://fundacionypf.org/VosylaEnergia/juegos.html",
                 "http://www.boemiz.com/shared-folder/tablero/"
@@ -174,14 +159,14 @@
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description": "Used for image load, animations & events"
+                    "description": ""
                 }
             ]
         },
         {
             "title": "Stopmotion",
             "year": 2016,
-            "description": "Stopmotion experiencie for Fundación YPF. It is a tool for making GIFs in a stop-motion style. We were a team of 4. One artist, a producer and 2 programmers. My job was take the code in PHP from the other programmer and make it a single page application.",
+            "description": "Stopmotion experiencie for Fundación YPF. Tool for making GIFs in a stop-motion style.",
             "links": [
                 "https://fundacionypf.org/VosylaEnergia/juegos.html",
                 "http://www.boemiz.com/shared-folder/stopmotionjs/"
@@ -201,7 +186,7 @@
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description": "Used for image load, animations & events"
+                    "description": ""
                 }
             ]
         },
@@ -235,9 +220,12 @@
         {
             "title": "Choppapp",
             "year": 2019,
-            "description": "In development. Ranking of craft beers in La Plata.",
+            "description": "Ranking of craft beers in La Plata. In development.",
             "links": [],
-            "code": [],
+            "code": [
+                "https://github.com/beto0607/choppapp-server",
+                "https://github.com/beto0607/choppapp-frontend"
+            ],
             "technologies": [
                 {
                     "title": "Ruby",
@@ -247,19 +235,19 @@
                 {
                     "title": "On Rails",
                     "icon": "rails_icon.svg",
-                    "description": "I am building a REST API. I have selected Ruby On Rails because it is easy and fast to prototype in it."
+                    "description": ""
                 },
                 {
                     "title": "React.JS",
                     "icon": "reactjs.svg",
-                    "description": "I want to make a client in React and try to make a PWA or a React Native app."
+                    "description": ""
                 }
             ]
         },
         {
             "title": "AprenDER",
             "year": 2017,
-            "description": "Human rights quiz. Finished in 2017 but published in 2019",
+            "description": "Quiz about Human rights. Finished in 2017 but published in 2019",
             "code": [],
             "links": [
                 "http://www.derechoshumanos.unlp.edu.ar/trivia"
@@ -268,34 +256,34 @@
                 {
                     "title": "Java",
                     "icon": "java.png",
-                    "description": "Java as backend language."
+                    "description": ""
                 },
                 {
                     "title": "JHipster",
                     "icon": "jhipster.png",
-                    "description": "JHipster as framework."
+                    "description": ""
                 },
                 {
                     "title": "HTML5",
                     "icon": "html5.svg",
-                    "description": "We used html elements instead of a canvas."
+                    "description": ""
                 },
                 {
                     "title": "Javascript",
                     "icon": "javascript.png",
-                    "description": "DOM manipulation"
+                    "description": ""
                 },
                 {
                     "title": "jQuery",
                     "icon": "jquery.png",
-                    "description": "Used for Ajax calls, image load, animations & event handling,"
+                    "description": ""
                 }
             ]
         },
         {
             "title": "Museo",
             "year": 2019,
-            "description": "It's a game for an interactive classroom in Museo de Ciencias Naturales in La Plata. It has 3 modules, one for administration, one for a TV with multitouch input and one for 45 tablets. The game consists in 6 mini-games. And all is controlled from the admin module.",
+            "description": "Game about paleontology and dinosaurs. It's for an interactive classroom in Museo de Ciencias Naturales in La Plata. It has 3 modules, one for administration, one for a TV with multitouch input and one for 45 tablets. The game consists in 6 mini-games. And all is controlled from the admin module.",
             "links": [],
             "code": [],
             "technologies": [
@@ -316,14 +304,14 @@
         "formal": [
             {
                 "title": "Analista Programador Universitario",
-                "description": "",
+                "description": "Degree based on Computer Science.",
                 "place": "UNLP",
                 "link": "https://www.info.unlp.edu.ar/carreras-gradoarticulo/plan-2015-analista-programador-universitario-nuevo/",
                 "year": "2019"
             },
             {
                 "title": "IT Technician",
-                "description": "",
+                "description": "Highschool",
                 "place": "EET N9",
                 "link": "",
                 "year": "2008"
@@ -346,21 +334,21 @@
             {
                 "title": "Find objects in video",
                 "place": "UNLP",
-                "description": "",
+                "description": "Find a object in a video by color with python and numpy",
                 "link": "",
                 "year": "2017"
             },
             {
-                "title": "Android SDK",
+                "title": "Android development",
                 "place": "Cacic",
-                "description": "",
+                "description": "Basic Android app development",
                 "link": "",
                 "year": "2017"
             },
             {
                 "title": "Reconocimiento inteligente de objetos en video",
                 "place": "IV Expo Ciencia y tecnología",
-                "description": "",
+                "description": "Pedestrian detection with Python and scikit-learn. Made with a SVM",
                 "link": "",
                 "year": "2018"
             },
