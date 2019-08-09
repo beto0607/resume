@@ -30,6 +30,39 @@
     },
     "projects": [
         {
+            "title": "Letrix",
+            "year": 2019,
+            "links": [
+                "https://letrix.herokuapp.com"
+            ],
+            "code": [
+                "https://github.com/beto0607/letrix-prototype"
+            ],
+            "description":"Game about forming words, it's in spanish and it's in prototype state.",
+            "technologies":[
+                {
+                    "title": "GitHub",
+                    "icon": "github_dark.png",
+                    "description": ""
+                },
+                {
+                    "title": "Heroku",
+                    "icon": "heroku.svg",
+                    "description": ""
+                },
+                {
+                    "title": "React.JS",
+                    "icon": "reactjs.svg",
+                    "description": ""
+                },
+                {
+                    "title": "Redux",
+                    "icon": "redux.svg",
+                    "description": ""
+                }
+            ]
+        },
+        {
             "title": "Resume",
             "year": 2019,
             "links": [
